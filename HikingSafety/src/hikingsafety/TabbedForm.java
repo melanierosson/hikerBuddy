@@ -64,7 +64,7 @@ public class TabbedForm extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         medImpInfoText1 = new javax.swing.JTextArea();
         lNameLabel1 = new javax.swing.JLabel();
-        lNameText2 = new javax.swing.JTextField();
+        lNameText1 = new javax.swing.JTextField();
         leaderLabel1 = new javax.swing.JLabel();
         leaderOptions1 = new javax.swing.JComboBox<>();
         bmiInfoTitle1 = new javax.swing.JLabel();
@@ -83,10 +83,150 @@ public class TabbedForm extends javax.swing.JFrame {
         fitnessLvlLabel1 = new javax.swing.JLabel();
         fitnessLvlOptions1 = new javax.swing.JComboBox<>();
         hikerTab2 = new javax.swing.JPanel();
+        fNameLabel2 = new javax.swing.JLabel();
+        fNameText2 = new javax.swing.JTextField();
+        lNameText2 = new javax.swing.JTextField();
+        lNameLabel2 = new javax.swing.JLabel();
+        phoneNumberLabel2 = new javax.swing.JLabel();
+        phoneNumberText2 = new javax.swing.JTextField();
+        leaderLabel2 = new javax.swing.JLabel();
+        leaderOptions2 = new javax.swing.JComboBox<>();
+        fullAddressText2 = new javax.swing.JTextField();
+        fullAddressLabel2 = new javax.swing.JLabel();
+        medImpInfoLabel2 = new javax.swing.JLabel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        medImpInfoText2 = new javax.swing.JTextArea();
+        jLabel2 = new javax.swing.JLabel();
+        genderOption2 = new javax.swing.JComboBox<>();
+        ageInt2 = new javax.swing.JTextField();
+        ageLabel2 = new javax.swing.JLabel();
+        fitnessLvlLabel2 = new javax.swing.JLabel();
+        fitnessLvlOptions2 = new javax.swing.JComboBox<>();
+        calcBMILabel2 = new javax.swing.JLabel();
+        calcBMIInt2 = new javax.swing.JLabel();
+        heightInt2 = new javax.swing.JTextField();
+        heightInLabel2 = new javax.swing.JLabel();
+        heightLabel2 = new javax.swing.JLabel();
+        weightLbsLabel2 = new javax.swing.JLabel();
+        weightInt2 = new javax.swing.JTextField();
+        weightLabel2 = new javax.swing.JLabel();
+        bmiInfoTitle2 = new javax.swing.JLabel();
         hikerTab3 = new javax.swing.JPanel();
+        fNameLabel3 = new javax.swing.JLabel();
+        fNameText3 = new javax.swing.JTextField();
+        lNameText3 = new javax.swing.JTextField();
+        lNameLabel3 = new javax.swing.JLabel();
+        phoneNumberLabel3 = new javax.swing.JLabel();
+        phoneNumberText3 = new javax.swing.JTextField();
+        leaderLabel3 = new javax.swing.JLabel();
+        leaderOptions3 = new javax.swing.JComboBox<>();
+        fullAddressText3 = new javax.swing.JTextField();
+        fullAddressLabel3 = new javax.swing.JLabel();
+        medImpInfoLabel3 = new javax.swing.JLabel();
+        jScrollPane3 = new javax.swing.JScrollPane();
+        medImpInfoText3 = new javax.swing.JTextArea();
+        jLabel3 = new javax.swing.JLabel();
+        genderOption3 = new javax.swing.JComboBox<>();
+        ageInt3 = new javax.swing.JTextField();
+        ageLabel3 = new javax.swing.JLabel();
+        fitnessLvlLabel3 = new javax.swing.JLabel();
+        fitnessLvlOptions3 = new javax.swing.JComboBox<>();
+        calcBMILabel3 = new javax.swing.JLabel();
+        calcBMIInt3 = new javax.swing.JLabel();
+        heightInt3 = new javax.swing.JTextField();
+        heightInLabel3 = new javax.swing.JLabel();
+        heightLabel3 = new javax.swing.JLabel();
+        weightLbsLabel3 = new javax.swing.JLabel();
+        weightInt3 = new javax.swing.JTextField();
+        weightLabel3 = new javax.swing.JLabel();
+        bmiInfoTitle3 = new javax.swing.JLabel();
         hikerTab4 = new javax.swing.JPanel();
+        fNameLabel4 = new javax.swing.JLabel();
+        fNameText4 = new javax.swing.JTextField();
+        lNameText4 = new javax.swing.JTextField();
+        lNameLabel4 = new javax.swing.JLabel();
+        phoneNumberLabel4 = new javax.swing.JLabel();
+        phoneNumberText4 = new javax.swing.JTextField();
+        leaderLabel4 = new javax.swing.JLabel();
+        leaderOptions4 = new javax.swing.JComboBox<>();
+        fullAddressText4 = new javax.swing.JTextField();
+        fullAddressLabel4 = new javax.swing.JLabel();
+        medImpInfoLabel4 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
+        medImpInfoText4 = new javax.swing.JTextArea();
+        jLabel4 = new javax.swing.JLabel();
+        genderOption4 = new javax.swing.JComboBox<>();
+        ageInt4 = new javax.swing.JTextField();
+        ageLabel4 = new javax.swing.JLabel();
+        fitnessLvlLabel4 = new javax.swing.JLabel();
+        fitnessLvlOptions4 = new javax.swing.JComboBox<>();
+        calcBMILabel4 = new javax.swing.JLabel();
+        calcBMIInt4 = new javax.swing.JLabel();
+        heightInt4 = new javax.swing.JTextField();
+        heightInLabel4 = new javax.swing.JLabel();
+        heightLabel4 = new javax.swing.JLabel();
+        weightLbsLabel4 = new javax.swing.JLabel();
+        weightInt4 = new javax.swing.JTextField();
+        weightLabel4 = new javax.swing.JLabel();
+        bmiInfoTitle4 = new javax.swing.JLabel();
         hikerTab5 = new javax.swing.JPanel();
+        fNameLabel5 = new javax.swing.JLabel();
+        fNameText5 = new javax.swing.JTextField();
+        lNameText5 = new javax.swing.JTextField();
+        lNameLabel5 = new javax.swing.JLabel();
+        phoneNumberLabel5 = new javax.swing.JLabel();
+        phoneNumberText5 = new javax.swing.JTextField();
+        leaderLabel5 = new javax.swing.JLabel();
+        leaderOptions5 = new javax.swing.JComboBox<>();
+        fullAddressText5 = new javax.swing.JTextField();
+        fullAddressLabel5 = new javax.swing.JLabel();
+        medImpInfoLabel5 = new javax.swing.JLabel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        medImpInfoText5 = new javax.swing.JTextArea();
+        jLabel5 = new javax.swing.JLabel();
+        genderOption5 = new javax.swing.JComboBox<>();
+        ageInt5 = new javax.swing.JTextField();
+        ageLabel5 = new javax.swing.JLabel();
+        fitnessLvlLabel5 = new javax.swing.JLabel();
+        fitnessLvlOptions5 = new javax.swing.JComboBox<>();
+        calcBMILabel5 = new javax.swing.JLabel();
+        calcBMIInt5 = new javax.swing.JLabel();
+        heightInt5 = new javax.swing.JTextField();
+        heightInLabel5 = new javax.swing.JLabel();
+        heightLabel5 = new javax.swing.JLabel();
+        weightLbsLabel5 = new javax.swing.JLabel();
+        weightInt5 = new javax.swing.JTextField();
+        weightLabel5 = new javax.swing.JLabel();
+        bmiInfoTitle5 = new javax.swing.JLabel();
         hikerTab6 = new javax.swing.JPanel();
+        fNameLabel6 = new javax.swing.JLabel();
+        fNameText6 = new javax.swing.JTextField();
+        lNameText6 = new javax.swing.JTextField();
+        lNameLabel6 = new javax.swing.JLabel();
+        phoneNumberLabel6 = new javax.swing.JLabel();
+        phoneNumberText6 = new javax.swing.JTextField();
+        leaderLabel6 = new javax.swing.JLabel();
+        leaderOptions6 = new javax.swing.JComboBox<>();
+        fullAddressText6 = new javax.swing.JTextField();
+        fullAddressLabel6 = new javax.swing.JLabel();
+        medImpInfoLabel6 = new javax.swing.JLabel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        medImpInfoText6 = new javax.swing.JTextArea();
+        jLabel6 = new javax.swing.JLabel();
+        genderOption6 = new javax.swing.JComboBox<>();
+        ageInt6 = new javax.swing.JTextField();
+        ageLabel6 = new javax.swing.JLabel();
+        fitnessLvlLabel6 = new javax.swing.JLabel();
+        fitnessLvlOptions6 = new javax.swing.JComboBox<>();
+        calcBMILabel6 = new javax.swing.JLabel();
+        calcBMIInt6 = new javax.swing.JLabel();
+        heightInt6 = new javax.swing.JTextField();
+        heightInLabel6 = new javax.swing.JLabel();
+        heightLabel6 = new javax.swing.JLabel();
+        weightLbsLabel6 = new javax.swing.JLabel();
+        weightInt6 = new javax.swing.JTextField();
+        weightLabel6 = new javax.swing.JLabel();
+        bmiInfoTitle6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -223,7 +363,7 @@ public class TabbedForm extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(29, Short.MAX_VALUE)
+                .addContainerGap(89, Short.MAX_VALUE)
                 .addComponent(hikingSafetyTitle)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(trailParkInfoLabel)
@@ -297,9 +437,9 @@ public class TabbedForm extends javax.swing.JFrame {
         lNameLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         lNameLabel1.setText("Last Name:");
 
-        lNameText2.addActionListener(new java.awt.event.ActionListener() {
+        lNameText1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                lNameText2ActionPerformed(evt);
+                lNameText1ActionPerformed(evt);
             }
         });
 
@@ -383,7 +523,7 @@ public class TabbedForm extends javax.swing.JFrame {
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addComponent(lNameLabel1)
                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addComponent(lNameText2, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(lNameText1, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(hikerTab1Layout.createSequentialGroup()
                         .addGroup(hikerTab1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(hikerTab1Layout.createSequentialGroup()
@@ -430,7 +570,7 @@ public class TabbedForm extends javax.swing.JFrame {
                     .addComponent(fNameLabel1)
                     .addComponent(fNameText1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(lNameLabel1)
-                    .addComponent(lNameText2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(lNameText1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(8, 8, 8)
                 .addGroup(hikerTab1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(phoneNumberLabel1)
@@ -465,72 +605,1047 @@ public class TabbedForm extends javax.swing.JFrame {
                     .addComponent(heightInLabel1)
                     .addComponent(calcBMILabel1)
                     .addComponent(calcBMIInt1))
-                .addContainerGap(32, Short.MAX_VALUE))
+                .addContainerGap(92, Short.MAX_VALUE))
         );
 
         participantsTabs.addTab("Hiker #1", hikerTab1);
+
+        fNameLabel2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        fNameLabel2.setText("First Name:");
+
+        fNameText2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fNameText2ActionPerformed(evt);
+            }
+        });
+
+        lNameText2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                lNameText2ActionPerformed(evt);
+            }
+        });
+
+        lNameLabel2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        lNameLabel2.setText("Last Name:");
+
+        phoneNumberLabel2.setText("Phone Number:");
+
+        phoneNumberText2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                phoneNumberText2ActionPerformed(evt);
+            }
+        });
+
+        leaderLabel2.setText("Group Leader:");
+
+        leaderOptions2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+
+        fullAddressText2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fullAddressText2ActionPerformed(evt);
+            }
+        });
+
+        fullAddressLabel2.setText("Full Address:");
+
+        medImpInfoLabel2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        medImpInfoLabel2.setText("Medical Conditions/Important Information:");
+
+        medImpInfoText2.setColumns(20);
+        medImpInfoText2.setRows(5);
+        jScrollPane2.setViewportView(medImpInfoText2);
+
+        jLabel2.setText("Gender:");
+
+        genderOption2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Unknown", "Male", "Female" }));
+
+        ageInt2.setText(" ");
+        ageInt2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ageInt2ActionPerformed(evt);
+            }
+        });
+
+        ageLabel2.setText("Age:");
+
+        fitnessLvlLabel2.setText("Fitness Level:");
+
+        fitnessLvlOptions2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Beginner", "Intermediate", "Advanced" }));
+
+        calcBMILabel2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        calcBMILabel2.setText("Calculated BMI:");
+
+        calcBMIInt2.setText("0");
+
+        heightInt2.setText("0");
+        heightInt2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                heightInt2ActionPerformed(evt);
+            }
+        });
+
+        heightInLabel2.setText("in.");
+
+        heightLabel2.setText("Height:");
+
+        weightLbsLabel2.setText("lbs.");
+
+        weightInt2.setText("0");
+        weightInt2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                weightInt2ActionPerformed(evt);
+            }
+        });
+
+        weightLabel2.setText("Weight:");
+
+        bmiInfoTitle2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        bmiInfoTitle2.setText("BMI Information:");
 
         javax.swing.GroupLayout hikerTab2Layout = new javax.swing.GroupLayout(hikerTab2);
         hikerTab2.setLayout(hikerTab2Layout);
         hikerTab2Layout.setHorizontalGroup(
             hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 624, Short.MAX_VALUE)
+            .addGroup(hikerTab2Layout.createSequentialGroup()
+                .addGap(69, 69, 69)
+                .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(hikerTab2Layout.createSequentialGroup()
+                            .addComponent(phoneNumberLabel2)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(phoneNumberText2, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(leaderLabel2)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(leaderOptions2, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 486, Short.MAX_VALUE)
+                        .addComponent(medImpInfoLabel2)
+                        .addGroup(hikerTab2Layout.createSequentialGroup()
+                            .addComponent(fullAddressLabel2)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(fullAddressText2))
+                        .addGroup(hikerTab2Layout.createSequentialGroup()
+                            .addComponent(fNameLabel2)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(fNameText2, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(lNameLabel2)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lNameText2, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(hikerTab2Layout.createSequentialGroup()
+                        .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab2Layout.createSequentialGroup()
+                                .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(bmiInfoTitle2)
+                                    .addGroup(hikerTab2Layout.createSequentialGroup()
+                                        .addComponent(weightLabel2)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(weightInt2, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(6, 6, 6)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(weightLbsLabel2)
+                                .addGap(33, 33, 33)
+                                .addComponent(heightLabel2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(heightInt2, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab2Layout.createSequentialGroup()
+                                .addComponent(jLabel2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(genderOption2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(ageLabel2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(ageInt2, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab2Layout.createSequentialGroup()
+                                .addComponent(heightInLabel2)
+                                .addGap(53, 53, 53)
+                                .addComponent(calcBMILabel2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(calcBMIInt2, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab2Layout.createSequentialGroup()
+                                .addComponent(fitnessLvlLabel2)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(fitnessLvlOptions2, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(48, Short.MAX_VALUE))
         );
         hikerTab2Layout.setVerticalGroup(
             hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 345, Short.MAX_VALUE)
+            .addGroup(hikerTab2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fNameLabel2)
+                    .addComponent(fNameText2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lNameLabel2)
+                    .addComponent(lNameText2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(8, 8, 8)
+                .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(phoneNumberLabel2)
+                    .addComponent(phoneNumberText2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(leaderLabel2)
+                    .addComponent(leaderOptions2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fullAddressLabel2)
+                    .addComponent(fullAddressText2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(medImpInfoLabel2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel2)
+                    .addComponent(genderOption2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ageLabel2)
+                    .addComponent(ageInt2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fitnessLvlLabel2)
+                    .addComponent(fitnessLvlOptions2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(bmiInfoTitle2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(weightLabel2)
+                    .addComponent(weightInt2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(weightLbsLabel2)
+                    .addComponent(heightLabel2)
+                    .addComponent(heightInt2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(heightInLabel2)
+                    .addComponent(calcBMILabel2)
+                    .addComponent(calcBMIInt2))
+                .addContainerGap(92, Short.MAX_VALUE))
         );
 
         participantsTabs.addTab("Hiker #2", hikerTab2);
+
+        fNameLabel3.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        fNameLabel3.setText("First Name:");
+
+        fNameText3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fNameText3ActionPerformed(evt);
+            }
+        });
+
+        lNameText3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                lNameText3ActionPerformed(evt);
+            }
+        });
+
+        lNameLabel3.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        lNameLabel3.setText("Last Name:");
+
+        phoneNumberLabel3.setText("Phone Number:");
+
+        phoneNumberText3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                phoneNumberText3ActionPerformed(evt);
+            }
+        });
+
+        leaderLabel3.setText("Group Leader:");
+
+        leaderOptions3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+
+        fullAddressText3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fullAddressText3ActionPerformed(evt);
+            }
+        });
+
+        fullAddressLabel3.setText("Full Address:");
+
+        medImpInfoLabel3.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        medImpInfoLabel3.setText("Medical Conditions/Important Information:");
+
+        medImpInfoText3.setColumns(20);
+        medImpInfoText3.setRows(5);
+        jScrollPane3.setViewportView(medImpInfoText3);
+
+        jLabel3.setText("Gender:");
+
+        genderOption3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Unknown", "Male", "Female" }));
+
+        ageInt3.setText(" ");
+        ageInt3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ageInt3ActionPerformed(evt);
+            }
+        });
+
+        ageLabel3.setText("Age:");
+
+        fitnessLvlLabel3.setText("Fitness Level:");
+
+        fitnessLvlOptions3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Beginner", "Intermediate", "Advanced" }));
+
+        calcBMILabel3.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        calcBMILabel3.setText("Calculated BMI:");
+
+        calcBMIInt3.setText("0");
+
+        heightInt3.setText("0");
+        heightInt3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                heightInt3ActionPerformed(evt);
+            }
+        });
+
+        heightInLabel3.setText("in.");
+
+        heightLabel3.setText("Height:");
+
+        weightLbsLabel3.setText("lbs.");
+
+        weightInt3.setText("0");
+        weightInt3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                weightInt3ActionPerformed(evt);
+            }
+        });
+
+        weightLabel3.setText("Weight:");
+
+        bmiInfoTitle3.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        bmiInfoTitle3.setText("BMI Information:");
 
         javax.swing.GroupLayout hikerTab3Layout = new javax.swing.GroupLayout(hikerTab3);
         hikerTab3.setLayout(hikerTab3Layout);
         hikerTab3Layout.setHorizontalGroup(
             hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 624, Short.MAX_VALUE)
+            .addGroup(hikerTab3Layout.createSequentialGroup()
+                .addGap(69, 69, 69)
+                .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(hikerTab3Layout.createSequentialGroup()
+                            .addComponent(phoneNumberLabel3)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(phoneNumberText3, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(leaderLabel3)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(leaderOptions3, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 486, Short.MAX_VALUE)
+                        .addComponent(medImpInfoLabel3)
+                        .addGroup(hikerTab3Layout.createSequentialGroup()
+                            .addComponent(fullAddressLabel3)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(fullAddressText3))
+                        .addGroup(hikerTab3Layout.createSequentialGroup()
+                            .addComponent(fNameLabel3)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(fNameText3, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(lNameLabel3)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lNameText3, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(hikerTab3Layout.createSequentialGroup()
+                        .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab3Layout.createSequentialGroup()
+                                .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(bmiInfoTitle3)
+                                    .addGroup(hikerTab3Layout.createSequentialGroup()
+                                        .addComponent(weightLabel3)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(weightInt3, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(6, 6, 6)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(weightLbsLabel3)
+                                .addGap(33, 33, 33)
+                                .addComponent(heightLabel3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(heightInt3, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab3Layout.createSequentialGroup()
+                                .addComponent(jLabel3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(genderOption3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(ageLabel3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(ageInt3, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab3Layout.createSequentialGroup()
+                                .addComponent(heightInLabel3)
+                                .addGap(53, 53, 53)
+                                .addComponent(calcBMILabel3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(calcBMIInt3, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab3Layout.createSequentialGroup()
+                                .addComponent(fitnessLvlLabel3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(fitnessLvlOptions3, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(48, Short.MAX_VALUE))
         );
         hikerTab3Layout.setVerticalGroup(
             hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 345, Short.MAX_VALUE)
+            .addGroup(hikerTab3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fNameLabel3)
+                    .addComponent(fNameText3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lNameLabel3)
+                    .addComponent(lNameText3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(8, 8, 8)
+                .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(phoneNumberLabel3)
+                    .addComponent(phoneNumberText3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(leaderLabel3)
+                    .addComponent(leaderOptions3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fullAddressLabel3)
+                    .addComponent(fullAddressText3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(medImpInfoLabel3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel3)
+                    .addComponent(genderOption3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ageLabel3)
+                    .addComponent(ageInt3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fitnessLvlLabel3)
+                    .addComponent(fitnessLvlOptions3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(bmiInfoTitle3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(weightLabel3)
+                    .addComponent(weightInt3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(weightLbsLabel3)
+                    .addComponent(heightLabel3)
+                    .addComponent(heightInt3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(heightInLabel3)
+                    .addComponent(calcBMILabel3)
+                    .addComponent(calcBMIInt3))
+                .addContainerGap(92, Short.MAX_VALUE))
         );
 
         participantsTabs.addTab("Hiker #3", hikerTab3);
+
+        fNameLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        fNameLabel4.setText("First Name:");
+
+        fNameText4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fNameText4ActionPerformed(evt);
+            }
+        });
+
+        lNameText4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                lNameText4ActionPerformed(evt);
+            }
+        });
+
+        lNameLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        lNameLabel4.setText("Last Name:");
+
+        phoneNumberLabel4.setText("Phone Number:");
+
+        phoneNumberText4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                phoneNumberText4ActionPerformed(evt);
+            }
+        });
+
+        leaderLabel4.setText("Group Leader:");
+
+        leaderOptions4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+
+        fullAddressText4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fullAddressText4ActionPerformed(evt);
+            }
+        });
+
+        fullAddressLabel4.setText("Full Address:");
+
+        medImpInfoLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        medImpInfoLabel4.setText("Medical Conditions/Important Information:");
+
+        medImpInfoText4.setColumns(20);
+        medImpInfoText4.setRows(5);
+        jScrollPane4.setViewportView(medImpInfoText4);
+
+        jLabel4.setText("Gender:");
+
+        genderOption4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Unknown", "Male", "Female" }));
+
+        ageInt4.setText(" ");
+        ageInt4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ageInt4ActionPerformed(evt);
+            }
+        });
+
+        ageLabel4.setText("Age:");
+
+        fitnessLvlLabel4.setText("Fitness Level:");
+
+        fitnessLvlOptions4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Beginner", "Intermediate", "Advanced" }));
+
+        calcBMILabel4.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        calcBMILabel4.setText("Calculated BMI:");
+
+        calcBMIInt4.setText("0");
+
+        heightInt4.setText("0");
+        heightInt4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                heightInt4ActionPerformed(evt);
+            }
+        });
+
+        heightInLabel4.setText("in.");
+
+        heightLabel4.setText("Height:");
+
+        weightLbsLabel4.setText("lbs.");
+
+        weightInt4.setText("0");
+        weightInt4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                weightInt4ActionPerformed(evt);
+            }
+        });
+
+        weightLabel4.setText("Weight:");
+
+        bmiInfoTitle4.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        bmiInfoTitle4.setText("BMI Information:");
 
         javax.swing.GroupLayout hikerTab4Layout = new javax.swing.GroupLayout(hikerTab4);
         hikerTab4.setLayout(hikerTab4Layout);
         hikerTab4Layout.setHorizontalGroup(
             hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 624, Short.MAX_VALUE)
+            .addGroup(hikerTab4Layout.createSequentialGroup()
+                .addGap(69, 69, 69)
+                .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(hikerTab4Layout.createSequentialGroup()
+                            .addComponent(phoneNumberLabel4)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(phoneNumberText4, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(leaderLabel4)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(leaderOptions4, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 486, Short.MAX_VALUE)
+                        .addComponent(medImpInfoLabel4)
+                        .addGroup(hikerTab4Layout.createSequentialGroup()
+                            .addComponent(fullAddressLabel4)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(fullAddressText4))
+                        .addGroup(hikerTab4Layout.createSequentialGroup()
+                            .addComponent(fNameLabel4)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(fNameText4, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(lNameLabel4)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lNameText4, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(hikerTab4Layout.createSequentialGroup()
+                        .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab4Layout.createSequentialGroup()
+                                .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(bmiInfoTitle4)
+                                    .addGroup(hikerTab4Layout.createSequentialGroup()
+                                        .addComponent(weightLabel4)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(weightInt4, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(6, 6, 6)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(weightLbsLabel4)
+                                .addGap(33, 33, 33)
+                                .addComponent(heightLabel4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(heightInt4, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab4Layout.createSequentialGroup()
+                                .addComponent(jLabel4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(genderOption4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(ageLabel4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(ageInt4, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab4Layout.createSequentialGroup()
+                                .addComponent(heightInLabel4)
+                                .addGap(53, 53, 53)
+                                .addComponent(calcBMILabel4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(calcBMIInt4, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab4Layout.createSequentialGroup()
+                                .addComponent(fitnessLvlLabel4)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(fitnessLvlOptions4, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(48, Short.MAX_VALUE))
         );
         hikerTab4Layout.setVerticalGroup(
             hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 345, Short.MAX_VALUE)
+            .addGroup(hikerTab4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fNameLabel4)
+                    .addComponent(fNameText4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lNameLabel4)
+                    .addComponent(lNameText4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(8, 8, 8)
+                .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(phoneNumberLabel4)
+                    .addComponent(phoneNumberText4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(leaderLabel4)
+                    .addComponent(leaderOptions4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fullAddressLabel4)
+                    .addComponent(fullAddressText4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(medImpInfoLabel4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel4)
+                    .addComponent(genderOption4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ageLabel4)
+                    .addComponent(ageInt4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fitnessLvlLabel4)
+                    .addComponent(fitnessLvlOptions4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(bmiInfoTitle4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(weightLabel4)
+                    .addComponent(weightInt4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(weightLbsLabel4)
+                    .addComponent(heightLabel4)
+                    .addComponent(heightInt4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(heightInLabel4)
+                    .addComponent(calcBMILabel4)
+                    .addComponent(calcBMIInt4))
+                .addContainerGap(92, Short.MAX_VALUE))
         );
 
         participantsTabs.addTab("Hiker #4", hikerTab4);
+
+        fNameLabel5.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        fNameLabel5.setText("First Name:");
+
+        fNameText5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fNameText5ActionPerformed(evt);
+            }
+        });
+
+        lNameText5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                lNameText5ActionPerformed(evt);
+            }
+        });
+
+        lNameLabel5.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        lNameLabel5.setText("Last Name:");
+
+        phoneNumberLabel5.setText("Phone Number:");
+
+        phoneNumberText5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                phoneNumberText5ActionPerformed(evt);
+            }
+        });
+
+        leaderLabel5.setText("Group Leader:");
+
+        leaderOptions5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+
+        fullAddressText5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fullAddressText5ActionPerformed(evt);
+            }
+        });
+
+        fullAddressLabel5.setText("Full Address:");
+
+        medImpInfoLabel5.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        medImpInfoLabel5.setText("Medical Conditions/Important Information:");
+
+        medImpInfoText5.setColumns(20);
+        medImpInfoText5.setRows(5);
+        jScrollPane5.setViewportView(medImpInfoText5);
+
+        jLabel5.setText("Gender:");
+
+        genderOption5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Unknown", "Male", "Female" }));
+
+        ageInt5.setText(" ");
+        ageInt5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ageInt5ActionPerformed(evt);
+            }
+        });
+
+        ageLabel5.setText("Age:");
+
+        fitnessLvlLabel5.setText("Fitness Level:");
+
+        fitnessLvlOptions5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Beginner", "Intermediate", "Advanced" }));
+
+        calcBMILabel5.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        calcBMILabel5.setText("Calculated BMI:");
+
+        calcBMIInt5.setText("0");
+
+        heightInt5.setText("0");
+        heightInt5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                heightInt5ActionPerformed(evt);
+            }
+        });
+
+        heightInLabel5.setText("in.");
+
+        heightLabel5.setText("Height:");
+
+        weightLbsLabel5.setText("lbs.");
+
+        weightInt5.setText("0");
+        weightInt5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                weightInt5ActionPerformed(evt);
+            }
+        });
+
+        weightLabel5.setText("Weight:");
+
+        bmiInfoTitle5.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        bmiInfoTitle5.setText("BMI Information:");
 
         javax.swing.GroupLayout hikerTab5Layout = new javax.swing.GroupLayout(hikerTab5);
         hikerTab5.setLayout(hikerTab5Layout);
         hikerTab5Layout.setHorizontalGroup(
             hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 624, Short.MAX_VALUE)
+            .addGroup(hikerTab5Layout.createSequentialGroup()
+                .addGap(69, 69, 69)
+                .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(hikerTab5Layout.createSequentialGroup()
+                            .addComponent(phoneNumberLabel5)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(phoneNumberText5, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(leaderLabel5)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(leaderOptions5, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 486, Short.MAX_VALUE)
+                        .addComponent(medImpInfoLabel5)
+                        .addGroup(hikerTab5Layout.createSequentialGroup()
+                            .addComponent(fullAddressLabel5)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(fullAddressText5))
+                        .addGroup(hikerTab5Layout.createSequentialGroup()
+                            .addComponent(fNameLabel5)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(fNameText5, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(lNameLabel5)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lNameText5, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(hikerTab5Layout.createSequentialGroup()
+                        .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab5Layout.createSequentialGroup()
+                                .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(bmiInfoTitle5)
+                                    .addGroup(hikerTab5Layout.createSequentialGroup()
+                                        .addComponent(weightLabel5)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(weightInt5, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(6, 6, 6)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(weightLbsLabel5)
+                                .addGap(33, 33, 33)
+                                .addComponent(heightLabel5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(heightInt5, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab5Layout.createSequentialGroup()
+                                .addComponent(jLabel5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(genderOption5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(ageLabel5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(ageInt5, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab5Layout.createSequentialGroup()
+                                .addComponent(heightInLabel5)
+                                .addGap(53, 53, 53)
+                                .addComponent(calcBMILabel5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(calcBMIInt5, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab5Layout.createSequentialGroup()
+                                .addComponent(fitnessLvlLabel5)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(fitnessLvlOptions5, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(48, Short.MAX_VALUE))
         );
         hikerTab5Layout.setVerticalGroup(
             hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 345, Short.MAX_VALUE)
+            .addGroup(hikerTab5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fNameLabel5)
+                    .addComponent(fNameText5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lNameLabel5)
+                    .addComponent(lNameText5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(8, 8, 8)
+                .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(phoneNumberLabel5)
+                    .addComponent(phoneNumberText5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(leaderLabel5)
+                    .addComponent(leaderOptions5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fullAddressLabel5)
+                    .addComponent(fullAddressText5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(medImpInfoLabel5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel5)
+                    .addComponent(genderOption5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ageLabel5)
+                    .addComponent(ageInt5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fitnessLvlLabel5)
+                    .addComponent(fitnessLvlOptions5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(bmiInfoTitle5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(weightLabel5)
+                    .addComponent(weightInt5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(weightLbsLabel5)
+                    .addComponent(heightLabel5)
+                    .addComponent(heightInt5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(heightInLabel5)
+                    .addComponent(calcBMILabel5)
+                    .addComponent(calcBMIInt5))
+                .addContainerGap(92, Short.MAX_VALUE))
         );
 
         participantsTabs.addTab("Hiker #5", hikerTab5);
+
+        fNameLabel6.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        fNameLabel6.setText("First Name:");
+
+        fNameText6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fNameText6ActionPerformed(evt);
+            }
+        });
+
+        lNameText6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                lNameText6ActionPerformed(evt);
+            }
+        });
+
+        lNameLabel6.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        lNameLabel6.setText("Last Name:");
+
+        phoneNumberLabel6.setText("Phone Number:");
+
+        phoneNumberText6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                phoneNumberText6ActionPerformed(evt);
+            }
+        });
+
+        leaderLabel6.setText("Group Leader:");
+
+        leaderOptions6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+
+        fullAddressText6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fullAddressText6ActionPerformed(evt);
+            }
+        });
+
+        fullAddressLabel6.setText("Full Address:");
+
+        medImpInfoLabel6.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        medImpInfoLabel6.setText("Medical Conditions/Important Information:");
+
+        medImpInfoText6.setColumns(20);
+        medImpInfoText6.setRows(5);
+        jScrollPane6.setViewportView(medImpInfoText6);
+
+        jLabel6.setText("Gender:");
+
+        genderOption6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Unknown", "Male", "Female" }));
+
+        ageInt6.setText(" ");
+        ageInt6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ageInt6ActionPerformed(evt);
+            }
+        });
+
+        ageLabel6.setText("Age:");
+
+        fitnessLvlLabel6.setText("Fitness Level:");
+
+        fitnessLvlOptions6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Beginner", "Intermediate", "Advanced" }));
+
+        calcBMILabel6.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        calcBMILabel6.setText("Calculated BMI:");
+
+        calcBMIInt6.setText("0");
+
+        heightInt6.setText("0");
+        heightInt6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                heightInt6ActionPerformed(evt);
+            }
+        });
+
+        heightInLabel6.setText("in.");
+
+        heightLabel6.setText("Height:");
+
+        weightLbsLabel6.setText("lbs.");
+
+        weightInt6.setText("0");
+        weightInt6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                weightInt6ActionPerformed(evt);
+            }
+        });
+
+        weightLabel6.setText("Weight:");
+
+        bmiInfoTitle6.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        bmiInfoTitle6.setText("BMI Information:");
 
         javax.swing.GroupLayout hikerTab6Layout = new javax.swing.GroupLayout(hikerTab6);
         hikerTab6.setLayout(hikerTab6Layout);
         hikerTab6Layout.setHorizontalGroup(
             hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 624, Short.MAX_VALUE)
+            .addGroup(hikerTab6Layout.createSequentialGroup()
+                .addGap(69, 69, 69)
+                .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addGroup(hikerTab6Layout.createSequentialGroup()
+                            .addComponent(phoneNumberLabel6)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(phoneNumberText6, javax.swing.GroupLayout.PREFERRED_SIZE, 134, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(leaderLabel6)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(leaderOptions6, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 486, Short.MAX_VALUE)
+                        .addComponent(medImpInfoLabel6)
+                        .addGroup(hikerTab6Layout.createSequentialGroup()
+                            .addComponent(fullAddressLabel6)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                            .addComponent(fullAddressText6))
+                        .addGroup(hikerTab6Layout.createSequentialGroup()
+                            .addComponent(fNameLabel6)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(fNameText6, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(lNameLabel6)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lNameText6, javax.swing.GroupLayout.PREFERRED_SIZE, 148, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(hikerTab6Layout.createSequentialGroup()
+                        .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab6Layout.createSequentialGroup()
+                                .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(bmiInfoTitle6)
+                                    .addGroup(hikerTab6Layout.createSequentialGroup()
+                                        .addComponent(weightLabel6)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(weightInt6, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(6, 6, 6)))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(weightLbsLabel6)
+                                .addGap(33, 33, 33)
+                                .addComponent(heightLabel6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(heightInt6, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab6Layout.createSequentialGroup()
+                                .addComponent(jLabel6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(genderOption6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(ageLabel6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(ageInt6, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab6Layout.createSequentialGroup()
+                                .addComponent(heightInLabel6)
+                                .addGap(53, 53, 53)
+                                .addComponent(calcBMILabel6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(calcBMIInt6, javax.swing.GroupLayout.PREFERRED_SIZE, 43, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab6Layout.createSequentialGroup()
+                                .addComponent(fitnessLvlLabel6)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(fitnessLvlOptions6, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                .addContainerGap(48, Short.MAX_VALUE))
         );
         hikerTab6Layout.setVerticalGroup(
             hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 345, Short.MAX_VALUE)
+            .addGroup(hikerTab6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fNameLabel6)
+                    .addComponent(fNameText6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lNameLabel6)
+                    .addComponent(lNameText6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(8, 8, 8)
+                .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(phoneNumberLabel6)
+                    .addComponent(phoneNumberText6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(leaderLabel6)
+                    .addComponent(leaderOptions6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(fullAddressLabel6)
+                    .addComponent(fullAddressText6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(medImpInfoLabel6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel6)
+                    .addComponent(genderOption6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(ageLabel6)
+                    .addComponent(ageInt6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(fitnessLvlLabel6)
+                    .addComponent(fitnessLvlOptions6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(18, 18, 18)
+                .addComponent(bmiInfoTitle6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(weightLabel6)
+                    .addComponent(weightInt6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(weightLbsLabel6)
+                    .addComponent(heightLabel6)
+                    .addComponent(heightInt6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(heightInLabel6)
+                    .addComponent(calcBMILabel6)
+                    .addComponent(calcBMIInt6))
+                .addContainerGap(92, Short.MAX_VALUE))
         );
 
         participantsTabs.addTab("Hiker #6", hikerTab6);
@@ -548,8 +1663,8 @@ public class TabbedForm extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(activityInformation, javax.swing.GroupLayout.PREFERRED_SIZE, 437, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 12, Short.MAX_VALUE))
+                .addComponent(activityInformation, javax.swing.GroupLayout.PREFERRED_SIZE, 497, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
@@ -567,9 +1682,9 @@ public class TabbedForm extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_fullAddressText1ActionPerformed
 
-    private void lNameText2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText2ActionPerformed
+    private void lNameText1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_lNameText2ActionPerformed
+    }//GEN-LAST:event_lNameText1ActionPerformed
 
     private void weightInt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt1ActionPerformed
         // TODO add your handling code here:
@@ -594,6 +1709,146 @@ public class TabbedForm extends javax.swing.JFrame {
     private void hikeIntensityOptionsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_hikeIntensityOptionsActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_hikeIntensityOptionsActionPerformed
+
+    private void fNameText2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNameText2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fNameText2ActionPerformed
+
+    private void lNameText2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lNameText2ActionPerformed
+
+    private void phoneNumberText2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_phoneNumberText2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_phoneNumberText2ActionPerformed
+
+    private void fullAddressText2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fullAddressText2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fullAddressText2ActionPerformed
+
+    private void ageInt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ageInt2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ageInt2ActionPerformed
+
+    private void heightInt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heightInt2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_heightInt2ActionPerformed
+
+    private void weightInt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_weightInt2ActionPerformed
+
+    private void fNameText3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNameText3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fNameText3ActionPerformed
+
+    private void lNameText3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lNameText3ActionPerformed
+
+    private void phoneNumberText3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_phoneNumberText3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_phoneNumberText3ActionPerformed
+
+    private void fullAddressText3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fullAddressText3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fullAddressText3ActionPerformed
+
+    private void ageInt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ageInt3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ageInt3ActionPerformed
+
+    private void heightInt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heightInt3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_heightInt3ActionPerformed
+
+    private void weightInt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_weightInt3ActionPerformed
+
+    private void fNameText4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNameText4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fNameText4ActionPerformed
+
+    private void lNameText4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lNameText4ActionPerformed
+
+    private void phoneNumberText4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_phoneNumberText4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_phoneNumberText4ActionPerformed
+
+    private void fullAddressText4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fullAddressText4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fullAddressText4ActionPerformed
+
+    private void ageInt4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ageInt4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ageInt4ActionPerformed
+
+    private void heightInt4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heightInt4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_heightInt4ActionPerformed
+
+    private void weightInt4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_weightInt4ActionPerformed
+
+    private void fNameText5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNameText5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fNameText5ActionPerformed
+
+    private void lNameText5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lNameText5ActionPerformed
+
+    private void phoneNumberText5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_phoneNumberText5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_phoneNumberText5ActionPerformed
+
+    private void fullAddressText5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fullAddressText5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fullAddressText5ActionPerformed
+
+    private void ageInt5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ageInt5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ageInt5ActionPerformed
+
+    private void heightInt5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heightInt5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_heightInt5ActionPerformed
+
+    private void weightInt5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_weightInt5ActionPerformed
+
+    private void fNameText6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNameText6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fNameText6ActionPerformed
+
+    private void lNameText6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lNameText6ActionPerformed
+
+    private void phoneNumberText6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_phoneNumberText6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_phoneNumberText6ActionPerformed
+
+    private void fullAddressText6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fullAddressText6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fullAddressText6ActionPerformed
+
+    private void ageInt6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ageInt6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ageInt6ActionPerformed
+
+    private void heightInt6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heightInt6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_heightInt6ActionPerformed
+
+    private void weightInt6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_weightInt6ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -634,24 +1889,99 @@ public class TabbedForm extends javax.swing.JFrame {
     private javax.swing.JLabel TrailParkInfoDescr;
     private javax.swing.JTabbedPane activityInformation;
     private javax.swing.JTextField ageInt1;
+    private javax.swing.JTextField ageInt2;
+    private javax.swing.JTextField ageInt3;
+    private javax.swing.JTextField ageInt4;
+    private javax.swing.JTextField ageInt5;
+    private javax.swing.JTextField ageInt6;
     private javax.swing.JLabel ageLabel1;
+    private javax.swing.JLabel ageLabel2;
+    private javax.swing.JLabel ageLabel3;
+    private javax.swing.JLabel ageLabel4;
+    private javax.swing.JLabel ageLabel5;
+    private javax.swing.JLabel ageLabel6;
     private javax.swing.JLabel bmiInfoTitle1;
+    private javax.swing.JLabel bmiInfoTitle2;
+    private javax.swing.JLabel bmiInfoTitle3;
+    private javax.swing.JLabel bmiInfoTitle4;
+    private javax.swing.JLabel bmiInfoTitle5;
+    private javax.swing.JLabel bmiInfoTitle6;
     private javax.swing.JLabel calcBMIInt1;
+    private javax.swing.JLabel calcBMIInt2;
+    private javax.swing.JLabel calcBMIInt3;
+    private javax.swing.JLabel calcBMIInt4;
+    private javax.swing.JLabel calcBMIInt5;
+    private javax.swing.JLabel calcBMIInt6;
     private javax.swing.JLabel calcBMILabel1;
+    private javax.swing.JLabel calcBMILabel2;
+    private javax.swing.JLabel calcBMILabel3;
+    private javax.swing.JLabel calcBMILabel4;
+    private javax.swing.JLabel calcBMILabel5;
+    private javax.swing.JLabel calcBMILabel6;
     private javax.swing.JLabel fNameLabel1;
+    private javax.swing.JLabel fNameLabel2;
+    private javax.swing.JLabel fNameLabel3;
+    private javax.swing.JLabel fNameLabel4;
+    private javax.swing.JLabel fNameLabel5;
+    private javax.swing.JLabel fNameLabel6;
     private javax.swing.JTextField fNameText1;
+    private javax.swing.JTextField fNameText2;
+    private javax.swing.JTextField fNameText3;
+    private javax.swing.JTextField fNameText4;
+    private javax.swing.JTextField fNameText5;
+    private javax.swing.JTextField fNameText6;
     private javax.swing.JLabel fitnessLvlLabel1;
+    private javax.swing.JLabel fitnessLvlLabel2;
+    private javax.swing.JLabel fitnessLvlLabel3;
+    private javax.swing.JLabel fitnessLvlLabel4;
+    private javax.swing.JLabel fitnessLvlLabel5;
+    private javax.swing.JLabel fitnessLvlLabel6;
     private javax.swing.JComboBox<String> fitnessLvlOptions1;
+    private javax.swing.JComboBox<String> fitnessLvlOptions2;
+    private javax.swing.JComboBox<String> fitnessLvlOptions3;
+    private javax.swing.JComboBox<String> fitnessLvlOptions4;
+    private javax.swing.JComboBox<String> fitnessLvlOptions5;
+    private javax.swing.JComboBox<String> fitnessLvlOptions6;
     private javax.swing.JLabel fullAddressLabel1;
+    private javax.swing.JLabel fullAddressLabel2;
+    private javax.swing.JLabel fullAddressLabel3;
+    private javax.swing.JLabel fullAddressLabel4;
+    private javax.swing.JLabel fullAddressLabel5;
+    private javax.swing.JLabel fullAddressLabel6;
     private javax.swing.JTextField fullAddressText1;
+    private javax.swing.JTextField fullAddressText2;
+    private javax.swing.JTextField fullAddressText3;
+    private javax.swing.JTextField fullAddressText4;
+    private javax.swing.JTextField fullAddressText5;
+    private javax.swing.JTextField fullAddressText6;
     private javax.swing.JComboBox<String> genderOption1;
+    private javax.swing.JComboBox<String> genderOption2;
+    private javax.swing.JComboBox<String> genderOption3;
+    private javax.swing.JComboBox<String> genderOption4;
+    private javax.swing.JComboBox<String> genderOption5;
+    private javax.swing.JComboBox<String> genderOption6;
     private javax.swing.JLabel groupAmt;
     private javax.swing.JLabel groupAmtLabel;
     private javax.swing.JLabel groupLeaderMainLabel;
     private javax.swing.JLabel groupLeaderMainText;
     private javax.swing.JLabel heightInLabel1;
+    private javax.swing.JLabel heightInLabel2;
+    private javax.swing.JLabel heightInLabel3;
+    private javax.swing.JLabel heightInLabel4;
+    private javax.swing.JLabel heightInLabel5;
+    private javax.swing.JLabel heightInLabel6;
     private javax.swing.JTextField heightInt1;
+    private javax.swing.JTextField heightInt2;
+    private javax.swing.JTextField heightInt3;
+    private javax.swing.JTextField heightInt4;
+    private javax.swing.JTextField heightInt5;
+    private javax.swing.JTextField heightInt6;
     private javax.swing.JLabel heightLabel1;
+    private javax.swing.JLabel heightLabel2;
+    private javax.swing.JLabel heightLabel3;
+    private javax.swing.JLabel heightLabel4;
+    private javax.swing.JLabel heightLabel5;
+    private javax.swing.JLabel heightLabel6;
     private javax.swing.JLabel hikeIntensityLabel;
     private javax.swing.JComboBox<String> hikeIntensityOptions;
     private javax.swing.JPanel hikerTab1;
@@ -662,20 +1992,70 @@ public class TabbedForm extends javax.swing.JFrame {
     private javax.swing.JPanel hikerTab6;
     private javax.swing.JLabel hikingSafetyTitle;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JLabel lNameLabel1;
+    private javax.swing.JLabel lNameLabel2;
+    private javax.swing.JLabel lNameLabel3;
+    private javax.swing.JLabel lNameLabel4;
+    private javax.swing.JLabel lNameLabel5;
+    private javax.swing.JLabel lNameLabel6;
+    private javax.swing.JTextField lNameText1;
     private javax.swing.JTextField lNameText2;
+    private javax.swing.JTextField lNameText3;
+    private javax.swing.JTextField lNameText4;
+    private javax.swing.JTextField lNameText5;
+    private javax.swing.JTextField lNameText6;
     private javax.swing.JLabel leaderLabel1;
+    private javax.swing.JLabel leaderLabel2;
+    private javax.swing.JLabel leaderLabel3;
+    private javax.swing.JLabel leaderLabel4;
+    private javax.swing.JLabel leaderLabel5;
+    private javax.swing.JLabel leaderLabel6;
     private javax.swing.JComboBox<String> leaderOptions1;
+    private javax.swing.JComboBox<String> leaderOptions2;
+    private javax.swing.JComboBox<String> leaderOptions3;
+    private javax.swing.JComboBox<String> leaderOptions4;
+    private javax.swing.JComboBox<String> leaderOptions5;
+    private javax.swing.JComboBox<String> leaderOptions6;
     private javax.swing.JLabel lengthTripLabel;
     private javax.swing.JLabel medImpInfoLabel1;
+    private javax.swing.JLabel medImpInfoLabel2;
+    private javax.swing.JLabel medImpInfoLabel3;
+    private javax.swing.JLabel medImpInfoLabel4;
+    private javax.swing.JLabel medImpInfoLabel5;
+    private javax.swing.JLabel medImpInfoLabel6;
     private javax.swing.JTextArea medImpInfoText;
     private javax.swing.JTextArea medImpInfoText1;
+    private javax.swing.JTextArea medImpInfoText2;
+    private javax.swing.JTextArea medImpInfoText3;
+    private javax.swing.JTextArea medImpInfoText4;
+    private javax.swing.JTextArea medImpInfoText5;
+    private javax.swing.JTextArea medImpInfoText6;
     private javax.swing.JLabel numDaysInt;
     private javax.swing.JTabbedPane participantsTabs;
     private javax.swing.JLabel phoneNumberLabel1;
+    private javax.swing.JLabel phoneNumberLabel2;
+    private javax.swing.JLabel phoneNumberLabel3;
+    private javax.swing.JLabel phoneNumberLabel4;
+    private javax.swing.JLabel phoneNumberLabel5;
+    private javax.swing.JLabel phoneNumberLabel6;
     private javax.swing.JTextField phoneNumberText1;
+    private javax.swing.JTextField phoneNumberText2;
+    private javax.swing.JTextField phoneNumberText3;
+    private javax.swing.JTextField phoneNumberText4;
+    private javax.swing.JTextField phoneNumberText5;
+    private javax.swing.JTextField phoneNumberText6;
     private javax.swing.JLabel trailParkInfoLabel;
     private javax.swing.JScrollPane trailParkInfoText;
     private javax.swing.JLabel tripEndDateLabel;
@@ -689,7 +2069,22 @@ public class TabbedForm extends javax.swing.JFrame {
     private javax.swing.JLabel tripStartTimeLabel;
     private javax.swing.JTextField tripStartTimeText;
     private javax.swing.JTextField weightInt1;
+    private javax.swing.JTextField weightInt2;
+    private javax.swing.JTextField weightInt3;
+    private javax.swing.JTextField weightInt4;
+    private javax.swing.JTextField weightInt5;
+    private javax.swing.JTextField weightInt6;
     private javax.swing.JLabel weightLabel1;
+    private javax.swing.JLabel weightLabel2;
+    private javax.swing.JLabel weightLabel3;
+    private javax.swing.JLabel weightLabel4;
+    private javax.swing.JLabel weightLabel5;
+    private javax.swing.JLabel weightLabel6;
     private javax.swing.JLabel weightLbsLabel1;
+    private javax.swing.JLabel weightLbsLabel2;
+    private javax.swing.JLabel weightLbsLabel3;
+    private javax.swing.JLabel weightLbsLabel4;
+    private javax.swing.JLabel weightLbsLabel5;
+    private javax.swing.JLabel weightLbsLabel6;
     // End of variables declaration//GEN-END:variables
 }
