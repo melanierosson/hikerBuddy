@@ -561,7 +561,7 @@ public class TabbedForm extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(natureTripDescr)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(vehiclesLabel)
                     .addComponent(vehiclesText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -2168,7 +2168,12 @@ public class TabbedForm extends javax.swing.JFrame {
     }//GEN-LAST:event_fullAddressText1ActionPerformed
 
     private void lNameText1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText1ActionPerformed
-        // TODO add your handling code here:
+        String stringLName = lNameText1.getText();
+        if (stringLName != ""){
+            is1 = true;
+            countGroup();
+            groupAmt.setText(String.format("%d", numGroup));
+        }
     }//GEN-LAST:event_lNameText1ActionPerformed
 
     private void weightInt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt1ActionPerformed
@@ -2219,7 +2224,12 @@ public class TabbedForm extends javax.swing.JFrame {
     }//GEN-LAST:event_fNameText2ActionPerformed
 
     private void lNameText2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText2ActionPerformed
-        // TODO add your handling code here:
+        String stringLName = lNameText2.getText();
+        if (stringLName != ""){
+            is2 = true;
+            countGroup();
+            groupAmt.setText(String.format("%d", numGroup));
+        }
     }//GEN-LAST:event_lNameText2ActionPerformed
 
     private void phoneNumberText2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_phoneNumberText2ActionPerformed
@@ -2266,7 +2276,12 @@ public class TabbedForm extends javax.swing.JFrame {
     }//GEN-LAST:event_fNameText3ActionPerformed
 
     private void lNameText3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText3ActionPerformed
-        // TODO add your handling code here:
+        String stringLName = lNameText3.getText();
+        if (stringLName != ""){
+            is3 = true;
+            countGroup();
+            groupAmt.setText(String.format("%d", numGroup));
+        }
     }//GEN-LAST:event_lNameText3ActionPerformed
 
     private void phoneNumberText3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_phoneNumberText3ActionPerformed
@@ -2313,7 +2328,12 @@ public class TabbedForm extends javax.swing.JFrame {
     }//GEN-LAST:event_fNameText4ActionPerformed
 
     private void lNameText4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText4ActionPerformed
-        // TODO add your handling code here:
+        String stringLName = lNameText4.getText();
+        if (stringLName != ""){
+            is4 = true;
+            countGroup();
+            groupAmt.setText(String.format("%d", numGroup));
+        }
     }//GEN-LAST:event_lNameText4ActionPerformed
 
     private void phoneNumberText4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_phoneNumberText4ActionPerformed
@@ -2360,7 +2380,12 @@ public class TabbedForm extends javax.swing.JFrame {
     }//GEN-LAST:event_fNameText5ActionPerformed
 
     private void lNameText5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText5ActionPerformed
-        // TODO add your handling code here:
+        String stringLName = lNameText5.getText();
+        if (stringLName != ""){
+            is5 = true;
+            countGroup();
+            groupAmt.setText(String.format("%d", numGroup));
+        }
     }//GEN-LAST:event_lNameText5ActionPerformed
 
     private void phoneNumberText5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_phoneNumberText5ActionPerformed
@@ -2407,7 +2432,12 @@ public class TabbedForm extends javax.swing.JFrame {
     }//GEN-LAST:event_fNameText6ActionPerformed
 
     private void lNameText6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lNameText6ActionPerformed
-        // TODO add your handling code here:
+        String stringLName = lNameText6.getText();
+        if (stringLName != ""){
+            is6 = true;
+            countGroup();
+            groupAmt.setText(String.format("%d", numGroup));
+        }
     }//GEN-LAST:event_lNameText6ActionPerformed
 
     private void phoneNumberText6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_phoneNumberText6ActionPerformed
