@@ -2094,11 +2094,25 @@ public class TabbedForm extends javax.swing.JFrame {
     }//GEN-LAST:event_lNameText1ActionPerformed
 
     private void weightInt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt1ActionPerformed
-        // TODO add your handling code here:
+        String stringHeight = heightInt1.getText();
+        double height = Double.parseDouble(stringHeight);
+        height = height*0.025;
+        String stringWeight = weightInt1.getText();
+        double weight = Double.parseDouble(stringWeight);
+        weight = weight*0.45;
+        double bmi = weight/(height*height);
+        calcBMIInt1.setText(String.format("%.2f", bmi));
     }//GEN-LAST:event_weightInt1ActionPerformed
 
     private void heightInt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heightInt1ActionPerformed
-        // TODO add your handling code here:
+        String stringHeight = heightInt1.getText();
+        double height = Double.parseDouble(stringHeight);
+        height = height*0.025;
+        String stringWeight = weightInt1.getText();
+        double weight = Double.parseDouble(stringWeight);
+        weight = weight*0.45;
+        double bmi = weight/(height*height);
+        calcBMIInt1.setText(String.format("%.2f", bmi));
     }//GEN-LAST:event_heightInt1ActionPerformed
 
     private void ageInt1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ageInt1ActionPerformed
@@ -2138,11 +2152,25 @@ public class TabbedForm extends javax.swing.JFrame {
     }//GEN-LAST:event_ageInt2ActionPerformed
 
     private void heightInt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heightInt2ActionPerformed
-        // TODO add your handling code here:
+        String stringHeight = heightInt2.getText();
+        double height = Double.parseDouble(stringHeight);
+        height = height*0.025;
+        String stringWeight = weightInt2.getText();
+        double weight = Double.parseDouble(stringWeight);
+        weight = weight*0.45;
+        double bmi = weight/(height*height);
+        calcBMIInt2.setText(String.format("%.2f", bmi));
     }//GEN-LAST:event_heightInt2ActionPerformed
 
     private void weightInt2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt2ActionPerformed
-        // TODO add your handling code here:
+        String stringHeight = heightInt2.getText();
+        double height = Double.parseDouble(stringHeight);
+        height = height*0.025;
+        String stringWeight = weightInt2.getText();
+        double weight = Double.parseDouble(stringWeight);
+        weight = weight*0.45;
+        double bmi = weight/(height*height);
+        calcBMIInt2.setText(String.format("%.2f", bmi));
     }//GEN-LAST:event_weightInt2ActionPerformed
 
     private void fNameText3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNameText3ActionPerformed
@@ -2166,11 +2194,25 @@ public class TabbedForm extends javax.swing.JFrame {
     }//GEN-LAST:event_ageInt3ActionPerformed
 
     private void heightInt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heightInt3ActionPerformed
-        // TODO add your handling code here:
+        String stringHeight = heightInt3.getText();
+        double height = Double.parseDouble(stringHeight);
+        height = height*0.025;
+        String stringWeight = weightInt3.getText();
+        double weight = Double.parseDouble(stringWeight);
+        weight = weight*0.45;
+        double bmi = weight/(height*height);
+        calcBMIInt3.setText(String.format("%.2f", bmi));
     }//GEN-LAST:event_heightInt3ActionPerformed
 
     private void weightInt3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt3ActionPerformed
-        // TODO add your handling code here:
+        String stringHeight = heightInt3.getText();
+        double height = Double.parseDouble(stringHeight);
+        height = height*0.025;
+        String stringWeight = weightInt3.getText();
+        double weight = Double.parseDouble(stringWeight);
+        weight = weight*0.45;
+        double bmi = weight/(height*height);
+        calcBMIInt3.setText(String.format("%.2f", bmi));
     }//GEN-LAST:event_weightInt3ActionPerformed
 
     private void fNameText4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNameText4ActionPerformed
@@ -2194,11 +2236,25 @@ public class TabbedForm extends javax.swing.JFrame {
     }//GEN-LAST:event_ageInt4ActionPerformed
 
     private void heightInt4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heightInt4ActionPerformed
-        // TODO add your handling code here:
+        String stringHeight = heightInt4.getText();
+        double height = Double.parseDouble(stringHeight);
+        height = height*0.025;
+        String stringWeight = weightInt4.getText();
+        double weight = Double.parseDouble(stringWeight);
+        weight = weight*0.45;
+        double bmi = weight/(height*height);
+        calcBMIInt4.setText(String.format("%.2f", bmi));
     }//GEN-LAST:event_heightInt4ActionPerformed
 
     private void weightInt4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt4ActionPerformed
-        // TODO add your handling code here:
+        String stringHeight = heightInt4.getText();
+        double height = Double.parseDouble(stringHeight);
+        height = height*0.025;
+        String stringWeight = weightInt4.getText();
+        double weight = Double.parseDouble(stringWeight);
+        weight = weight*0.45;
+        double bmi = weight/(height*height);
+        calcBMIInt4.setText(String.format("%.2f", bmi));
     }//GEN-LAST:event_weightInt4ActionPerformed
 
     private void fNameText5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNameText5ActionPerformed
@@ -2222,11 +2278,25 @@ public class TabbedForm extends javax.swing.JFrame {
     }//GEN-LAST:event_ageInt5ActionPerformed
 
     private void heightInt5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heightInt5ActionPerformed
-        // TODO add your handling code here:
+        String stringHeight = heightInt5.getText();
+        double height = Double.parseDouble(stringHeight);
+        height = height*0.025;
+        String stringWeight = weightInt5.getText();
+        double weight = Double.parseDouble(stringWeight);
+        weight = weight*0.45;
+        double bmi = weight/(height*height);
+        calcBMIInt5.setText(String.format("%.2f", bmi));
     }//GEN-LAST:event_heightInt5ActionPerformed
 
     private void weightInt5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt5ActionPerformed
-        // TODO add your handling code here:
+        String stringHeight = heightInt5.getText();
+        double height = Double.parseDouble(stringHeight);
+        height = height*0.025;
+        String stringWeight = weightInt5.getText();
+        double weight = Double.parseDouble(stringWeight);
+        weight = weight*0.45;
+        double bmi = weight/(height*height);
+        calcBMIInt5.setText(String.format("%.2f", bmi));
     }//GEN-LAST:event_weightInt5ActionPerformed
 
     private void fNameText6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fNameText6ActionPerformed
@@ -2250,11 +2320,25 @@ public class TabbedForm extends javax.swing.JFrame {
     }//GEN-LAST:event_ageInt6ActionPerformed
 
     private void heightInt6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_heightInt6ActionPerformed
-        // TODO add your handling code here:
+        String stringHeight = heightInt6.getText();
+        double height = Double.parseDouble(stringHeight);
+        height = height*0.025;
+        String stringWeight = weightInt6.getText();
+        double weight = Double.parseDouble(stringWeight);
+        weight = weight*0.45;
+        double bmi = weight/(height*height);
+        calcBMIInt6.setText(String.format("%.2f", bmi));
     }//GEN-LAST:event_heightInt6ActionPerformed
 
     private void weightInt6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_weightInt6ActionPerformed
-        // TODO add your handling code here:
+        String stringHeight = heightInt6.getText();
+        double height = Double.parseDouble(stringHeight);
+        height = height*0.025;
+        String stringWeight = weightInt6.getText();
+        double weight = Double.parseDouble(stringWeight);
+        weight = weight*0.45;
+        double bmi = weight/(height*height);
+        calcBMIInt6.setText(String.format("%.2f", bmi));
     }//GEN-LAST:event_weightInt6ActionPerformed
 
     private void natureTripTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_natureTripTextActionPerformed
