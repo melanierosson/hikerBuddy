@@ -55,7 +55,7 @@
           <Layout>
             <DimensionLayout dim="0">
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
@@ -93,46 +93,6 @@
                                   <Component id="natureTripText" max="32767" attributes="0"/>
                               </Group>
                           </Group>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="TrailParkInfoDescr" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="trailParkInfoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="trailParkInfoText" min="-2" pref="511" max="-2" attributes="0"/>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
-                                      <Component id="hikingSafetyTitle" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <Component id="groupAmtLabel" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                              <Component id="groupAmt" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Component id="tripStartInfoLabel" min="-2" max="-2" attributes="0"/>
-                                      </Group>
-                                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
-                                      <Group type="103" groupAlignment="0" attributes="0">
-                                          <Group type="102" alignment="0" attributes="0">
-                                              <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
-                                              <Component id="groupLeaderMainLabel" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="groupLeaderMainText" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <Group type="102" alignment="1" attributes="0">
-                                              <Component id="tripStartDateLabel" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="tripStartDateText" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="tripStartTimeLabel" min="-2" max="-2" attributes="0"/>
-                                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                                              <Component id="tripStartTimeText" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                      </Group>
-                                  </Group>
-                              </Group>
-                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                          </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="vehiclesLabel" min="-2" max="-2" attributes="0"/>
                               <EmptySpace max="-2" attributes="0"/>
@@ -144,6 +104,56 @@
                                   <Component id="vehiclesText" max="32767" attributes="0"/>
                               </Group>
                           </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="TrailParkInfoDescr" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="trailParkInfoLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="trailParkInfoText" min="-2" pref="511" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="176" max="-2" attributes="0"/>
+                                          <Component id="hikingSafetyTitle" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="groupAmtLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="groupAmt" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="tripStartInfoLabel" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <Component id="tripStartDateLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="tripStartDateText" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="tripStartTimeLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="tripStartTimeText" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="1" max="-2" attributes="0"/>
+                                                  <Component id="groupLeaderMainLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="groupLeaderMainText" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="itineraryLabel" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="itineraryDescr" min="-2" max="-2" attributes="0"/>
+                                          <Component id="itineraryText" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          </Group>
                       </Group>
                       <EmptySpace min="-2" pref="65" max="-2" attributes="0"/>
                   </Group>
@@ -152,15 +162,22 @@
             <DimensionLayout dim="1">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
                       <Component id="hikingSafetyTitle" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Component id="trailParkInfoLabel" min="-2" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="trailParkInfoText" min="-2" pref="73" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                       <Component id="TrailParkInfoDescr" min="-2" max="-2" attributes="0"/>
-                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="itineraryLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="itineraryText" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                      <Component id="itineraryDescr" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="3" attributes="0">
                           <Component id="groupAmtLabel" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="groupAmt" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -424,6 +441,27 @@
                 <Property name="text" type="java.lang.String" value="This only applies to vehicles that have been left at the trail parking lots by group members."/>
               </Properties>
             </Component>
+            <Component class="javax.swing.JLabel" name="itineraryLabel">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="13" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Summarized Itinerary:"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JTextField" name="itineraryText">
+              <Properties>
+                <Property name="text" type="java.lang.String" value=" "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="itineraryDescr">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Lucida Grande" size="8" style="2"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Examples: hiking, lunch, break, set up tent, etc."/>
+              </Properties>
+            </Component>
           </SubComponents>
         </Container>
         <Container class="javax.swing.JTabbedPane" name="participantsTabs">
@@ -577,7 +615,7 @@
                               <Component id="calcBMILabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="calcBMIInt1" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="99" max="32767" attributes="0"/>
+                          <EmptySpace pref="104" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -920,7 +958,7 @@
                               <Component id="calcBMILabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="calcBMIInt2" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="99" max="32767" attributes="0"/>
+                          <EmptySpace pref="104" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1263,7 +1301,7 @@
                               <Component id="calcBMILabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="calcBMIInt3" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="99" max="32767" attributes="0"/>
+                          <EmptySpace pref="104" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1606,7 +1644,7 @@
                               <Component id="calcBMILabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="calcBMIInt4" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="99" max="32767" attributes="0"/>
+                          <EmptySpace pref="104" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1949,7 +1987,7 @@
                               <Component id="calcBMILabel5" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="calcBMIInt5" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="99" max="32767" attributes="0"/>
+                          <EmptySpace pref="104" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -2292,7 +2330,7 @@
                               <Component id="calcBMILabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="calcBMIInt6" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="99" max="32767" attributes="0"/>
+                          <EmptySpace pref="104" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
