@@ -341,7 +341,7 @@ public class TabbedForm extends javax.swing.JFrame {
         itineraryText.setText(" ");
 
         itineraryDescr.setFont(new java.awt.Font("Lucida Grande", 2, 8)); // NOI18N
-        itineraryDescr.setText("Examples: hiking, lunch, break, set up tent, etc.");
+        itineraryDescr.setText("Examples: hiking, lunch, break, set up tent, etc. (You can also use this section for notes.)");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -370,7 +370,11 @@ public class TabbedForm extends javax.swing.JFrame {
                                 .addGap(18, 18, 18)
                                 .addComponent(tripEndTimeLabel)
                                 .addGap(18, 18, 18)
-                                .addComponent(tripEndTimeText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addComponent(tripEndTimeText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addComponent(tripStartTimeLabel)
+                                .addGap(18, 18, 18)
+                                .addComponent(tripStartTimeText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(natureTripLabel)
                         .addGap(18, 18, 18)
@@ -401,21 +405,18 @@ public class TabbedForm extends javax.swing.JFrame {
                                             .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                             .addComponent(groupAmt))
                                         .addComponent(tripStartInfoLabel))
-                                    .addGap(37, 37, 37)
                                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addGroup(jPanel1Layout.createSequentialGroup()
+                                            .addGap(38, 38, 38)
+                                            .addComponent(groupLeaderMainLabel)
+                                            .addGap(18, 18, 18)
+                                            .addComponent(groupLeaderMainText))
                                         .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                             .addComponent(tripStartDateLabel)
                                             .addGap(18, 18, 18)
                                             .addComponent(tripStartDateText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addGap(18, 18, 18)
-                                            .addComponent(tripStartTimeLabel)
-                                            .addGap(18, 18, 18)
-                                            .addComponent(tripStartTimeText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGroup(jPanel1Layout.createSequentialGroup()
-                                            .addGap(1, 1, 1)
-                                            .addComponent(groupLeaderMainLabel)
-                                            .addGap(18, 18, 18)
-                                            .addComponent(groupLeaderMainText)))))
+                                            .addGap(111, 111, 111)))))
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                                 .addComponent(itineraryLabel)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
