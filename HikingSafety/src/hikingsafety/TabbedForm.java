@@ -5,6 +5,8 @@
  */
 package hikingsafety;
 
+import javax.swing.JComboBox;
+
 /**
  *
  * @author melanie
@@ -48,6 +50,14 @@ public class TabbedForm extends javax.swing.JFrame {
         }
         
         return numGroup;
+    }
+    
+    boolean isLeader = false;
+    
+    public void testLeader(JComboBox<String> tl){
+        if ("Yes".equals(tl)){
+            isLeader = true;
+        }
     }
     
 
@@ -551,9 +561,9 @@ public class TabbedForm extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(natureTripDescr)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(vehiclesText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(vehiclesLabel))
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(vehiclesLabel)
+                    .addComponent(vehiclesText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(vehicleDescr, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(23, Short.MAX_VALUE))
@@ -605,6 +615,11 @@ public class TabbedForm extends javax.swing.JFrame {
         leaderLabel1.setText("Group Leader:");
 
         leaderOptions1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No", "Yes" }));
+        leaderOptions1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                leaderOptions1ActionPerformed(evt);
+            }
+        });
 
         bmiInfoTitle1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         bmiInfoTitle1.setText("BMI Information:");
@@ -844,6 +859,11 @@ public class TabbedForm extends javax.swing.JFrame {
         leaderLabel2.setText("Group Leader:");
 
         leaderOptions2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No", "Yes" }));
+        leaderOptions2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                leaderOptions2ActionPerformed(evt);
+            }
+        });
 
         fullAddressText2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1099,6 +1119,11 @@ public class TabbedForm extends javax.swing.JFrame {
         leaderLabel3.setText("Group Leader:");
 
         leaderOptions3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No", "Yes" }));
+        leaderOptions3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                leaderOptions3ActionPerformed(evt);
+            }
+        });
 
         fullAddressText3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1354,6 +1379,11 @@ public class TabbedForm extends javax.swing.JFrame {
         leaderLabel4.setText("Group Leader:");
 
         leaderOptions4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No", "Yes" }));
+        leaderOptions4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                leaderOptions4ActionPerformed(evt);
+            }
+        });
 
         fullAddressText4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1609,6 +1639,11 @@ public class TabbedForm extends javax.swing.JFrame {
         leaderLabel5.setText("Group Leader:");
 
         leaderOptions5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No", "Yes" }));
+        leaderOptions5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                leaderOptions5ActionPerformed(evt);
+            }
+        });
 
         fullAddressText5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1864,6 +1899,11 @@ public class TabbedForm extends javax.swing.JFrame {
         leaderLabel6.setText("Group Leader:");
 
         leaderOptions6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No", "Yes" }));
+        leaderOptions6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                leaderOptions6ActionPerformed(evt);
+            }
+        });
 
         fullAddressText6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -2412,6 +2452,60 @@ public class TabbedForm extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_vehiclesTextActionPerformed
 
+    private void leaderOptions1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_leaderOptions1ActionPerformed
+        testLeader(leaderOptions1);
+        String stringFn = fNameText1.getText();
+        String stringLn = lNameText1.getText();
+        if (isLeader = true){
+            groupLeaderMainText.setText(String.format("%s %s", stringFn, stringLn));
+        }
+    }//GEN-LAST:event_leaderOptions1ActionPerformed
+
+    private void leaderOptions2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_leaderOptions2ActionPerformed
+        testLeader(leaderOptions2);
+        String stringFn = fNameText2.getText();
+        String stringLn = lNameText2.getText();
+        if (isLeader = true){
+            groupLeaderMainText.setText(String.format("%s %s", stringFn, stringLn));
+        }
+    }//GEN-LAST:event_leaderOptions2ActionPerformed
+
+    private void leaderOptions3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_leaderOptions3ActionPerformed
+        testLeader(leaderOptions3);
+        String stringFn = fNameText3.getText();
+        String stringLn = lNameText3.getText();
+        if (isLeader = true){
+            groupLeaderMainText.setText(String.format("%s %s", stringFn, stringLn));
+        }
+    }//GEN-LAST:event_leaderOptions3ActionPerformed
+
+    private void leaderOptions4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_leaderOptions4ActionPerformed
+        testLeader(leaderOptions4);
+        String stringFn = fNameText4.getText();
+        String stringLn = lNameText4.getText();
+        if (isLeader = true){
+            groupLeaderMainText.setText(String.format("%s %s", stringFn, stringLn));
+        }
+    }//GEN-LAST:event_leaderOptions4ActionPerformed
+
+    private void leaderOptions5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_leaderOptions5ActionPerformed
+        testLeader(leaderOptions5);
+        String stringFn = fNameText5.getText();
+        String stringLn = lNameText5.getText();
+        if (isLeader = true){
+            groupLeaderMainText.setText(String.format("%s %s", stringFn, stringLn));
+        }
+    }//GEN-LAST:event_leaderOptions5ActionPerformed
+
+    private void leaderOptions6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_leaderOptions6ActionPerformed
+        testLeader(leaderOptions6);
+        String stringFn = fNameText6.getText();
+        String stringLn = lNameText6.getText();
+        if (isLeader = true){
+            groupLeaderMainText.setText(String.format("%s %s", stringFn, stringLn));
+        }
+    }//GEN-LAST:event_leaderOptions6ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -2543,7 +2637,7 @@ public class TabbedForm extends javax.swing.JFrame {
     private javax.swing.JLabel groupAmt;
     private javax.swing.JLabel groupAmtLabel;
     private javax.swing.JLabel groupLeaderMainLabel;
-    private javax.swing.JLabel groupLeaderMainText;
+    public javax.swing.JLabel groupLeaderMainText;
     private javax.swing.JLabel heightInLabel1;
     private javax.swing.JLabel heightInLabel2;
     private javax.swing.JLabel heightInLabel3;
