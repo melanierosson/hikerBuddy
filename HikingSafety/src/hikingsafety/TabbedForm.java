@@ -52,6 +52,9 @@ public class TabbedForm extends javax.swing.JFrame {
         hikeIntensityLabel = new javax.swing.JLabel();
         hikeIntensityOptions = new javax.swing.JComboBox<>();
         hikingSafetyTitle = new javax.swing.JLabel();
+        natureTripLabel = new javax.swing.JLabel();
+        natureTripText = new javax.swing.JTextField();
+        natureTripDescr = new javax.swing.JLabel();
         participantsTabs = new javax.swing.JTabbedPane();
         hikerTab1 = new javax.swing.JPanel();
         fNameText1 = new javax.swing.JTextField();
@@ -300,15 +303,32 @@ public class TabbedForm extends javax.swing.JFrame {
         hikingSafetyTitle.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
         hikingSafetyTitle.setText("Hiker Buddy");
 
+        natureTripLabel.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        natureTripLabel.setText("Nature of Trip:");
+
+        natureTripText.setText(" ");
+        natureTripText.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                natureTripTextActionPerformed(evt);
+            }
+        });
+
+        natureTripDescr.setFont(new java.awt.Font("Lucida Grande", 2, 8)); // NOI18N
+        natureTripDescr.setText("Examples: hiking, climbing, picnic, camping, etc.");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(70, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(69, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(TrailParkInfoDescr)
                     .addComponent(trailParkInfoLabel)
+                    .addComponent(trailParkInfoText, javax.swing.GroupLayout.PREFERRED_SIZE, 511, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(176, 176, 176)
+                        .addComponent(hikingSafetyTitle))
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
                         .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -352,18 +372,19 @@ public class TabbedForm extends javax.swing.JFrame {
                                     .addGap(18, 18, 18)
                                     .addComponent(tripEndTimeLabel)
                                     .addGap(18, 18, 18)
-                                    .addComponent(tripEndTimeText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                    .addComponent(trailParkInfoText, javax.swing.GroupLayout.PREFERRED_SIZE, 511, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(64, 64, 64))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(246, 246, 246)
-                .addComponent(hikingSafetyTitle)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                    .addComponent(tripEndTimeText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
+                            .addComponent(natureTripLabel)
+                            .addGap(18, 18, 18)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(natureTripDescr)
+                                .addComponent(natureTripText)))))
+                .addGap(65, 65, 65))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addContainerGap(89, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(37, 37, 37)
                 .addComponent(hikingSafetyTitle)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(trailParkInfoLabel)
@@ -397,7 +418,13 @@ public class TabbedForm extends javax.swing.JFrame {
                     .addComponent(numDaysInt)
                     .addComponent(hikeIntensityLabel)
                     .addComponent(hikeIntensityOptions, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(55, 55, 55))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(natureTripLabel)
+                    .addComponent(natureTripText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(natureTripDescr)
+                .addContainerGap(53, Short.MAX_VALUE))
         );
 
         activityInformation.addTab("Activity Information", jPanel1);
@@ -1850,6 +1877,10 @@ public class TabbedForm extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_weightInt6ActionPerformed
 
+    private void natureTripTextActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_natureTripTextActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_natureTripTextActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -2042,6 +2073,9 @@ public class TabbedForm extends javax.swing.JFrame {
     private javax.swing.JTextArea medImpInfoText4;
     private javax.swing.JTextArea medImpInfoText5;
     private javax.swing.JTextArea medImpInfoText6;
+    private javax.swing.JLabel natureTripDescr;
+    private javax.swing.JLabel natureTripLabel;
+    private javax.swing.JTextField natureTripText;
     private javax.swing.JLabel numDaysInt;
     private javax.swing.JTabbedPane participantsTabs;
     private javax.swing.JLabel phoneNumberLabel1;
