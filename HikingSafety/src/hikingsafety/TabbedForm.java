@@ -604,7 +604,7 @@ public class TabbedForm extends javax.swing.JFrame {
 
         leaderLabel1.setText("Group Leader:");
 
-        leaderOptions1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+        leaderOptions1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No", "Yes" }));
 
         bmiInfoTitle1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         bmiInfoTitle1.setText("BMI Information:");
@@ -843,7 +843,7 @@ public class TabbedForm extends javax.swing.JFrame {
 
         leaderLabel2.setText("Group Leader:");
 
-        leaderOptions2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+        leaderOptions2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No", "Yes" }));
 
         fullAddressText2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1098,7 +1098,7 @@ public class TabbedForm extends javax.swing.JFrame {
 
         leaderLabel3.setText("Group Leader:");
 
-        leaderOptions3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+        leaderOptions3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No", "Yes" }));
 
         fullAddressText3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1353,7 +1353,7 @@ public class TabbedForm extends javax.swing.JFrame {
 
         leaderLabel4.setText("Group Leader:");
 
-        leaderOptions4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+        leaderOptions4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No", "Yes" }));
 
         fullAddressText4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1608,7 +1608,7 @@ public class TabbedForm extends javax.swing.JFrame {
 
         leaderLabel5.setText("Group Leader:");
 
-        leaderOptions5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+        leaderOptions5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No", "Yes" }));
 
         fullAddressText5.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1863,7 +1863,7 @@ public class TabbedForm extends javax.swing.JFrame {
 
         leaderLabel6.setText("Group Leader:");
 
-        leaderOptions6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Yes", "No" }));
+        leaderOptions6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "No", "Yes" }));
 
         fullAddressText6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
