@@ -91,6 +91,13 @@ public class TabbedForm extends javax.swing.JFrame {
         ageInt1 = new javax.swing.JTextField();
         fitnessLvlLabel1 = new javax.swing.JLabel();
         fitnessLvlOptions1 = new javax.swing.JComboBox<>();
+        reqSuppliesTitle1 = new javax.swing.JLabel();
+        waterLabel1 = new javax.swing.JLabel();
+        waterAmt1 = new javax.swing.JLabel();
+        waterLitersLabel1 = new javax.swing.JLabel();
+        foodCalLabel1 = new javax.swing.JLabel();
+        foodAmt1 = new javax.swing.JLabel();
+        foodLabel1 = new javax.swing.JLabel();
         hikerTab2 = new javax.swing.JPanel();
         fNameLabel2 = new javax.swing.JLabel();
         fNameText2 = new javax.swing.JTextField();
@@ -120,6 +127,13 @@ public class TabbedForm extends javax.swing.JFrame {
         weightInt2 = new javax.swing.JTextField();
         weightLabel2 = new javax.swing.JLabel();
         bmiInfoTitle2 = new javax.swing.JLabel();
+        reqSuppliesTitle2 = new javax.swing.JLabel();
+        waterLabel2 = new javax.swing.JLabel();
+        waterAmt2 = new javax.swing.JLabel();
+        waterLitersLabel2 = new javax.swing.JLabel();
+        foodLabel2 = new javax.swing.JLabel();
+        foodAmt2 = new javax.swing.JLabel();
+        foodCalLabel2 = new javax.swing.JLabel();
         hikerTab3 = new javax.swing.JPanel();
         fNameLabel3 = new javax.swing.JLabel();
         fNameText3 = new javax.swing.JTextField();
@@ -149,6 +163,13 @@ public class TabbedForm extends javax.swing.JFrame {
         weightInt3 = new javax.swing.JTextField();
         weightLabel3 = new javax.swing.JLabel();
         bmiInfoTitle3 = new javax.swing.JLabel();
+        reqSuppliesTitle3 = new javax.swing.JLabel();
+        waterLabel3 = new javax.swing.JLabel();
+        waterAmt3 = new javax.swing.JLabel();
+        waterLitersLabel3 = new javax.swing.JLabel();
+        foodLabel3 = new javax.swing.JLabel();
+        foodAmt3 = new javax.swing.JLabel();
+        foodCalLabel3 = new javax.swing.JLabel();
         hikerTab4 = new javax.swing.JPanel();
         fNameLabel4 = new javax.swing.JLabel();
         fNameText4 = new javax.swing.JTextField();
@@ -178,6 +199,13 @@ public class TabbedForm extends javax.swing.JFrame {
         weightInt4 = new javax.swing.JTextField();
         weightLabel4 = new javax.swing.JLabel();
         bmiInfoTitle4 = new javax.swing.JLabel();
+        foodCalLabel4 = new javax.swing.JLabel();
+        waterAmt4 = new javax.swing.JLabel();
+        waterLabel4 = new javax.swing.JLabel();
+        reqSuppliesTitle4 = new javax.swing.JLabel();
+        foodAmt4 = new javax.swing.JLabel();
+        waterLitersLabel4 = new javax.swing.JLabel();
+        foodLabel4 = new javax.swing.JLabel();
         hikerTab5 = new javax.swing.JPanel();
         fNameLabel5 = new javax.swing.JLabel();
         fNameText5 = new javax.swing.JTextField();
@@ -207,6 +235,13 @@ public class TabbedForm extends javax.swing.JFrame {
         weightInt5 = new javax.swing.JTextField();
         weightLabel5 = new javax.swing.JLabel();
         bmiInfoTitle5 = new javax.swing.JLabel();
+        foodCalLabel5 = new javax.swing.JLabel();
+        reqSuppliesTitle5 = new javax.swing.JLabel();
+        waterLitersLabel5 = new javax.swing.JLabel();
+        foodLabel5 = new javax.swing.JLabel();
+        foodAmt5 = new javax.swing.JLabel();
+        waterAmt5 = new javax.swing.JLabel();
+        waterLabel5 = new javax.swing.JLabel();
         hikerTab6 = new javax.swing.JPanel();
         fNameLabel6 = new javax.swing.JLabel();
         fNameText6 = new javax.swing.JTextField();
@@ -236,6 +271,13 @@ public class TabbedForm extends javax.swing.JFrame {
         weightInt6 = new javax.swing.JTextField();
         weightLabel6 = new javax.swing.JLabel();
         bmiInfoTitle6 = new javax.swing.JLabel();
+        foodCalLabel6 = new javax.swing.JLabel();
+        reqSuppliesTitle6 = new javax.swing.JLabel();
+        waterLitersLabel6 = new javax.swing.JLabel();
+        foodLabel6 = new javax.swing.JLabel();
+        foodAmt6 = new javax.swing.JLabel();
+        waterAmt6 = new javax.swing.JLabel();
+        waterLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -479,9 +521,9 @@ public class TabbedForm extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(vehiclesText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(vehiclesLabel))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(vehicleDescr, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addContainerGap(23, Short.MAX_VALUE))
         );
 
         activityInformation.addTab("Activity Information", jPanel1);
@@ -578,6 +620,25 @@ public class TabbedForm extends javax.swing.JFrame {
 
         fitnessLvlOptions1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Beginner", "Intermediate", "Advanced" }));
 
+        reqSuppliesTitle1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        reqSuppliesTitle1.setText("Packing Information:");
+
+        waterLabel1.setText("Water:");
+
+        waterAmt1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        waterAmt1.setText("0");
+
+        waterLitersLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        waterLitersLabel1.setText("liters");
+
+        foodCalLabel1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        foodCalLabel1.setText("calories");
+
+        foodAmt1.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        foodAmt1.setText("0");
+
+        foodLabel1.setText("Food:");
+
         javax.swing.GroupLayout hikerTab1Layout = new javax.swing.GroupLayout(hikerTab1);
         hikerTab1.setLayout(hikerTab1Layout);
         hikerTab1Layout.setHorizontalGroup(
@@ -611,6 +672,14 @@ public class TabbedForm extends javax.swing.JFrame {
                     .addGroup(hikerTab1Layout.createSequentialGroup()
                         .addGroup(hikerTab1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(hikerTab1Layout.createSequentialGroup()
+                                .addComponent(jLabel1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(genderOption1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(ageLabel1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(ageInt1, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab1Layout.createSequentialGroup()
                                 .addGroup(hikerTab1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                     .addComponent(bmiInfoTitle1)
                                     .addGroup(hikerTab1Layout.createSequentialGroup()
@@ -621,17 +690,25 @@ public class TabbedForm extends javax.swing.JFrame {
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(weightLbsLabel1)
                                 .addGap(33, 33, 33)
-                                .addComponent(heightLabel1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(heightInt1, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(hikerTab1Layout.createSequentialGroup()
-                                .addComponent(jLabel1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(genderOption1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(ageLabel1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(ageInt1, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addGroup(hikerTab1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(heightLabel1)
+                                    .addComponent(foodLabel1))
+                                .addGroup(hikerTab1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(hikerTab1Layout.createSequentialGroup()
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(heightInt1, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, hikerTab1Layout.createSequentialGroup()
+                                        .addGap(12, 12, 12)
+                                        .addComponent(foodAmt1, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(hikerTab1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addGroup(hikerTab1Layout.createSequentialGroup()
+                                    .addComponent(waterLabel1)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(waterAmt1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(waterLitersLabel1)
+                                    .addGap(3, 3, 3))
+                                .addComponent(reqSuppliesTitle1)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addGroup(hikerTab1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(hikerTab1Layout.createSequentialGroup()
@@ -643,7 +720,8 @@ public class TabbedForm extends javax.swing.JFrame {
                             .addGroup(hikerTab1Layout.createSequentialGroup()
                                 .addComponent(fitnessLvlLabel1)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(fitnessLvlOptions1, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                .addComponent(fitnessLvlOptions1, javax.swing.GroupLayout.PREFERRED_SIZE, 120, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(foodCalLabel1))))
                 .addContainerGap(48, Short.MAX_VALUE))
         );
         hikerTab1Layout.setVerticalGroup(
@@ -689,7 +767,17 @@ public class TabbedForm extends javax.swing.JFrame {
                     .addComponent(heightInLabel1)
                     .addComponent(calcBMILabel1)
                     .addComponent(calcBMIInt1))
-                .addContainerGap(104, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(reqSuppliesTitle1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(hikerTab1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(waterLabel1)
+                    .addComponent(waterAmt1)
+                    .addComponent(waterLitersLabel1)
+                    .addComponent(foodLabel1)
+                    .addComponent(foodAmt1)
+                    .addComponent(foodCalLabel1))
+                .addContainerGap(59, Short.MAX_VALUE))
         );
 
         participantsTabs.addTab("Hiker #1", hikerTab1);
@@ -786,6 +874,25 @@ public class TabbedForm extends javax.swing.JFrame {
         bmiInfoTitle2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         bmiInfoTitle2.setText("BMI Information:");
 
+        reqSuppliesTitle2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        reqSuppliesTitle2.setText("Packing Information:");
+
+        waterLabel2.setText("Water:");
+
+        waterAmt2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        waterAmt2.setText("0");
+
+        waterLitersLabel2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        waterLitersLabel2.setText("liters");
+
+        foodLabel2.setText("Food:");
+
+        foodAmt2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        foodAmt2.setText("0");
+
+        foodCalLabel2.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        foodCalLabel2.setText("calories");
+
         javax.swing.GroupLayout hikerTab2Layout = new javax.swing.GroupLayout(hikerTab2);
         hikerTab2.setLayout(hikerTab2Layout);
         hikerTab2Layout.setHorizontalGroup(
@@ -793,6 +900,24 @@ public class TabbedForm extends javax.swing.JFrame {
             .addGroup(hikerTab2Layout.createSequentialGroup()
                 .addGap(69, 69, 69)
                 .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(hikerTab2Layout.createSequentialGroup()
+                        .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab2Layout.createSequentialGroup()
+                                .addGap(172, 172, 172)
+                                .addComponent(foodLabel2)
+                                .addGap(12, 12, 12)
+                                .addComponent(foodAmt2, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addGroup(hikerTab2Layout.createSequentialGroup()
+                                    .addComponent(waterLabel2)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(waterAmt2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(waterLitersLabel2)
+                                    .addGap(3, 3, 3))
+                                .addComponent(reqSuppliesTitle2)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(foodCalLabel2))
                     .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(hikerTab2Layout.createSequentialGroup()
                             .addComponent(phoneNumberLabel2)
@@ -897,7 +1022,17 @@ public class TabbedForm extends javax.swing.JFrame {
                     .addComponent(heightInLabel2)
                     .addComponent(calcBMILabel2)
                     .addComponent(calcBMIInt2))
-                .addContainerGap(104, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(reqSuppliesTitle2)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(hikerTab2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(waterLabel2)
+                    .addComponent(waterAmt2)
+                    .addComponent(waterLitersLabel2)
+                    .addComponent(foodLabel2)
+                    .addComponent(foodAmt2)
+                    .addComponent(foodCalLabel2))
+                .addContainerGap(59, Short.MAX_VALUE))
         );
 
         participantsTabs.addTab("Hiker #2", hikerTab2);
@@ -994,6 +1129,25 @@ public class TabbedForm extends javax.swing.JFrame {
         bmiInfoTitle3.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         bmiInfoTitle3.setText("BMI Information:");
 
+        reqSuppliesTitle3.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        reqSuppliesTitle3.setText("Packing Information:");
+
+        waterLabel3.setText("Water:");
+
+        waterAmt3.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        waterAmt3.setText("0");
+
+        waterLitersLabel3.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        waterLitersLabel3.setText("liters");
+
+        foodLabel3.setText("Food:");
+
+        foodAmt3.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        foodAmt3.setText("0");
+
+        foodCalLabel3.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        foodCalLabel3.setText("calories");
+
         javax.swing.GroupLayout hikerTab3Layout = new javax.swing.GroupLayout(hikerTab3);
         hikerTab3.setLayout(hikerTab3Layout);
         hikerTab3Layout.setHorizontalGroup(
@@ -1001,6 +1155,24 @@ public class TabbedForm extends javax.swing.JFrame {
             .addGroup(hikerTab3Layout.createSequentialGroup()
                 .addGap(69, 69, 69)
                 .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(hikerTab3Layout.createSequentialGroup()
+                        .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab3Layout.createSequentialGroup()
+                                .addGap(172, 172, 172)
+                                .addComponent(foodLabel3)
+                                .addGap(12, 12, 12)
+                                .addComponent(foodAmt3, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addGroup(hikerTab3Layout.createSequentialGroup()
+                                    .addComponent(waterLabel3)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(waterAmt3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(waterLitersLabel3)
+                                    .addGap(3, 3, 3))
+                                .addComponent(reqSuppliesTitle3)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(foodCalLabel3))
                     .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(hikerTab3Layout.createSequentialGroup()
                             .addComponent(phoneNumberLabel3)
@@ -1105,7 +1277,17 @@ public class TabbedForm extends javax.swing.JFrame {
                     .addComponent(heightInLabel3)
                     .addComponent(calcBMILabel3)
                     .addComponent(calcBMIInt3))
-                .addContainerGap(104, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(reqSuppliesTitle3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(hikerTab3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(waterLabel3)
+                    .addComponent(waterAmt3)
+                    .addComponent(waterLitersLabel3)
+                    .addComponent(foodLabel3)
+                    .addComponent(foodAmt3)
+                    .addComponent(foodCalLabel3))
+                .addContainerGap(59, Short.MAX_VALUE))
         );
 
         participantsTabs.addTab("Hiker #3", hikerTab3);
@@ -1202,6 +1384,25 @@ public class TabbedForm extends javax.swing.JFrame {
         bmiInfoTitle4.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         bmiInfoTitle4.setText("BMI Information:");
 
+        foodCalLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        foodCalLabel4.setText("calories");
+
+        waterAmt4.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        waterAmt4.setText("0");
+
+        waterLabel4.setText("Water:");
+
+        reqSuppliesTitle4.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        reqSuppliesTitle4.setText("Packing Information:");
+
+        foodAmt4.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        foodAmt4.setText("0");
+
+        waterLitersLabel4.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        waterLitersLabel4.setText("liters");
+
+        foodLabel4.setText("Food:");
+
         javax.swing.GroupLayout hikerTab4Layout = new javax.swing.GroupLayout(hikerTab4);
         hikerTab4.setLayout(hikerTab4Layout);
         hikerTab4Layout.setHorizontalGroup(
@@ -1209,6 +1410,24 @@ public class TabbedForm extends javax.swing.JFrame {
             .addGroup(hikerTab4Layout.createSequentialGroup()
                 .addGap(69, 69, 69)
                 .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(hikerTab4Layout.createSequentialGroup()
+                        .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab4Layout.createSequentialGroup()
+                                .addGap(172, 172, 172)
+                                .addComponent(foodLabel4)
+                                .addGap(12, 12, 12)
+                                .addComponent(foodAmt4, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addGroup(hikerTab4Layout.createSequentialGroup()
+                                    .addComponent(waterLabel4)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(waterAmt4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(waterLitersLabel4)
+                                    .addGap(3, 3, 3))
+                                .addComponent(reqSuppliesTitle4)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(foodCalLabel4))
                     .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(hikerTab4Layout.createSequentialGroup()
                             .addComponent(phoneNumberLabel4)
@@ -1313,7 +1532,17 @@ public class TabbedForm extends javax.swing.JFrame {
                     .addComponent(heightInLabel4)
                     .addComponent(calcBMILabel4)
                     .addComponent(calcBMIInt4))
-                .addContainerGap(104, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(reqSuppliesTitle4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(hikerTab4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(waterLabel4)
+                    .addComponent(waterAmt4)
+                    .addComponent(waterLitersLabel4)
+                    .addComponent(foodLabel4)
+                    .addComponent(foodAmt4)
+                    .addComponent(foodCalLabel4))
+                .addContainerGap(59, Short.MAX_VALUE))
         );
 
         participantsTabs.addTab("Hiker #4", hikerTab4);
@@ -1410,6 +1639,25 @@ public class TabbedForm extends javax.swing.JFrame {
         bmiInfoTitle5.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         bmiInfoTitle5.setText("BMI Information:");
 
+        foodCalLabel5.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        foodCalLabel5.setText("calories");
+
+        reqSuppliesTitle5.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        reqSuppliesTitle5.setText("Packing Information:");
+
+        waterLitersLabel5.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        waterLitersLabel5.setText("liters");
+
+        foodLabel5.setText("Food:");
+
+        foodAmt5.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        foodAmt5.setText("0");
+
+        waterAmt5.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        waterAmt5.setText("0");
+
+        waterLabel5.setText("Water:");
+
         javax.swing.GroupLayout hikerTab5Layout = new javax.swing.GroupLayout(hikerTab5);
         hikerTab5.setLayout(hikerTab5Layout);
         hikerTab5Layout.setHorizontalGroup(
@@ -1417,6 +1665,24 @@ public class TabbedForm extends javax.swing.JFrame {
             .addGroup(hikerTab5Layout.createSequentialGroup()
                 .addGap(69, 69, 69)
                 .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(hikerTab5Layout.createSequentialGroup()
+                        .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab5Layout.createSequentialGroup()
+                                .addGap(172, 172, 172)
+                                .addComponent(foodLabel5)
+                                .addGap(12, 12, 12)
+                                .addComponent(foodAmt5, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addGroup(hikerTab5Layout.createSequentialGroup()
+                                    .addComponent(waterLabel5)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(waterAmt5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(waterLitersLabel5)
+                                    .addGap(3, 3, 3))
+                                .addComponent(reqSuppliesTitle5)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(foodCalLabel5))
                     .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(hikerTab5Layout.createSequentialGroup()
                             .addComponent(phoneNumberLabel5)
@@ -1521,7 +1787,17 @@ public class TabbedForm extends javax.swing.JFrame {
                     .addComponent(heightInLabel5)
                     .addComponent(calcBMILabel5)
                     .addComponent(calcBMIInt5))
-                .addContainerGap(104, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(reqSuppliesTitle5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(hikerTab5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(waterLabel5)
+                    .addComponent(waterAmt5)
+                    .addComponent(waterLitersLabel5)
+                    .addComponent(foodLabel5)
+                    .addComponent(foodAmt5)
+                    .addComponent(foodCalLabel5))
+                .addContainerGap(59, Short.MAX_VALUE))
         );
 
         participantsTabs.addTab("Hiker #5", hikerTab5);
@@ -1618,6 +1894,25 @@ public class TabbedForm extends javax.swing.JFrame {
         bmiInfoTitle6.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         bmiInfoTitle6.setText("BMI Information:");
 
+        foodCalLabel6.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        foodCalLabel6.setText("calories");
+
+        reqSuppliesTitle6.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        reqSuppliesTitle6.setText("Packing Information:");
+
+        waterLitersLabel6.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        waterLitersLabel6.setText("liters");
+
+        foodLabel6.setText("Food:");
+
+        foodAmt6.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        foodAmt6.setText("0");
+
+        waterAmt6.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
+        waterAmt6.setText("0");
+
+        waterLabel6.setText("Water:");
+
         javax.swing.GroupLayout hikerTab6Layout = new javax.swing.GroupLayout(hikerTab6);
         hikerTab6.setLayout(hikerTab6Layout);
         hikerTab6Layout.setHorizontalGroup(
@@ -1625,6 +1920,24 @@ public class TabbedForm extends javax.swing.JFrame {
             .addGroup(hikerTab6Layout.createSequentialGroup()
                 .addGap(69, 69, 69)
                 .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(hikerTab6Layout.createSequentialGroup()
+                        .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(hikerTab6Layout.createSequentialGroup()
+                                .addGap(172, 172, 172)
+                                .addComponent(foodLabel6)
+                                .addGap(12, 12, 12)
+                                .addComponent(foodAmt6, javax.swing.GroupLayout.PREFERRED_SIZE, 51, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addGroup(hikerTab6Layout.createSequentialGroup()
+                                    .addComponent(waterLabel6)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(waterAmt6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(waterLitersLabel6)
+                                    .addGap(3, 3, 3))
+                                .addComponent(reqSuppliesTitle6)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(foodCalLabel6))
                     .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                         .addGroup(hikerTab6Layout.createSequentialGroup()
                             .addComponent(phoneNumberLabel6)
@@ -1729,7 +2042,17 @@ public class TabbedForm extends javax.swing.JFrame {
                     .addComponent(heightInLabel6)
                     .addComponent(calcBMILabel6)
                     .addComponent(calcBMIInt6))
-                .addContainerGap(104, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(reqSuppliesTitle6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(hikerTab6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(waterLabel6)
+                    .addComponent(waterAmt6)
+                    .addComponent(waterLitersLabel6)
+                    .addComponent(foodLabel6)
+                    .addComponent(foodAmt6)
+                    .addComponent(foodCalLabel6))
+                .addContainerGap(59, Short.MAX_VALUE))
         );
 
         participantsTabs.addTab("Hiker #6", hikerTab6);
@@ -1747,7 +2070,7 @@ public class TabbedForm extends javax.swing.JFrame {
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(activityInformation, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(activityInformation, javax.swing.GroupLayout.PREFERRED_SIZE, 526, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, Short.MAX_VALUE))
         );
 
@@ -2034,6 +2357,24 @@ public class TabbedForm extends javax.swing.JFrame {
     private javax.swing.JComboBox<String> fitnessLvlOptions4;
     private javax.swing.JComboBox<String> fitnessLvlOptions5;
     private javax.swing.JComboBox<String> fitnessLvlOptions6;
+    private javax.swing.JLabel foodAmt1;
+    private javax.swing.JLabel foodAmt2;
+    private javax.swing.JLabel foodAmt3;
+    private javax.swing.JLabel foodAmt4;
+    private javax.swing.JLabel foodAmt5;
+    private javax.swing.JLabel foodAmt6;
+    private javax.swing.JLabel foodCalLabel1;
+    private javax.swing.JLabel foodCalLabel2;
+    private javax.swing.JLabel foodCalLabel3;
+    private javax.swing.JLabel foodCalLabel4;
+    private javax.swing.JLabel foodCalLabel5;
+    private javax.swing.JLabel foodCalLabel6;
+    private javax.swing.JLabel foodLabel1;
+    private javax.swing.JLabel foodLabel2;
+    private javax.swing.JLabel foodLabel3;
+    private javax.swing.JLabel foodLabel4;
+    private javax.swing.JLabel foodLabel5;
+    private javax.swing.JLabel foodLabel6;
     private javax.swing.JLabel fullAddressLabel1;
     private javax.swing.JLabel fullAddressLabel2;
     private javax.swing.JLabel fullAddressLabel3;
@@ -2154,6 +2495,12 @@ public class TabbedForm extends javax.swing.JFrame {
     private javax.swing.JTextField phoneNumberText4;
     private javax.swing.JTextField phoneNumberText5;
     private javax.swing.JTextField phoneNumberText6;
+    private javax.swing.JLabel reqSuppliesTitle1;
+    private javax.swing.JLabel reqSuppliesTitle2;
+    private javax.swing.JLabel reqSuppliesTitle3;
+    private javax.swing.JLabel reqSuppliesTitle4;
+    private javax.swing.JLabel reqSuppliesTitle5;
+    private javax.swing.JLabel reqSuppliesTitle6;
     private javax.swing.JLabel trailParkInfoLabel;
     private javax.swing.JScrollPane trailParkInfoText;
     private javax.swing.JLabel tripEndDateLabel;
@@ -2169,6 +2516,24 @@ public class TabbedForm extends javax.swing.JFrame {
     private javax.swing.JLabel vehicleDescr;
     private javax.swing.JLabel vehiclesLabel;
     private javax.swing.JTextField vehiclesText;
+    private javax.swing.JLabel waterAmt1;
+    private javax.swing.JLabel waterAmt2;
+    private javax.swing.JLabel waterAmt3;
+    private javax.swing.JLabel waterAmt4;
+    private javax.swing.JLabel waterAmt5;
+    private javax.swing.JLabel waterAmt6;
+    private javax.swing.JLabel waterLabel1;
+    private javax.swing.JLabel waterLabel2;
+    private javax.swing.JLabel waterLabel3;
+    private javax.swing.JLabel waterLabel4;
+    private javax.swing.JLabel waterLabel5;
+    private javax.swing.JLabel waterLabel6;
+    private javax.swing.JLabel waterLitersLabel1;
+    private javax.swing.JLabel waterLitersLabel2;
+    private javax.swing.JLabel waterLitersLabel3;
+    private javax.swing.JLabel waterLitersLabel4;
+    private javax.swing.JLabel waterLitersLabel5;
+    private javax.swing.JLabel waterLitersLabel6;
     private javax.swing.JTextField weightInt1;
     private javax.swing.JTextField weightInt2;
     private javax.swing.JTextField weightInt3;

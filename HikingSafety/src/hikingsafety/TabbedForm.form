@@ -32,7 +32,7 @@
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <Component id="activityInformation" min="-2" max="-2" attributes="0"/>
+              <Component id="activityInformation" min="-2" pref="526" max="-2" attributes="0"/>
               <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
           </Group>
       </Group>
@@ -221,9 +221,9 @@
                           <Component id="vehiclesText" alignment="3" min="-2" max="-2" attributes="0"/>
                           <Component id="vehiclesLabel" alignment="0" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <EmptySpace max="32767" attributes="0"/>
-                      <Component id="vehicleDescr" min="-2" pref="10" max="-2" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
+                      <Component id="vehicleDescr" min="-2" pref="10" max="-2" attributes="0"/>
+                      <EmptySpace pref="23" max="32767" attributes="0"/>
                   </Group>
               </Group>
             </DimensionLayout>
@@ -519,9 +519,18 @@
                                       <Component id="lNameText1" min="-2" pref="148" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
+                              <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="genderOption1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="ageLabel1" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="ageInt1" min="-2" pref="38" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
                                           <Group type="103" groupAlignment="1" attributes="0">
                                               <Component id="bmiInfoTitle1" min="-2" max="-2" attributes="0"/>
                                               <Group type="102" attributes="0">
@@ -534,18 +543,31 @@
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Component id="weightLbsLabel1" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                                          <Component id="heightLabel1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="heightInt1" min="-2" pref="51" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="heightLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="foodLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Component id="heightInt1" min="-2" pref="51" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                                  <Component id="foodAmt1" min="-2" pref="51" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
                                       </Group>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="genderOption1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                          <Component id="ageLabel1" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="ageInt1" min="-2" pref="38" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" attributes="0">
+                                              <Component id="waterLabel1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="waterAmt1" max="32767" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="waterLitersLabel1" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="reqSuppliesTitle1" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -562,6 +584,7 @@
                                           <EmptySpace max="-2" attributes="0"/>
                                           <Component id="fitnessLvlOptions1" min="-2" pref="120" max="-2" attributes="0"/>
                                       </Group>
+                                      <Component id="foodCalLabel1" min="-2" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                           </Group>
@@ -617,7 +640,18 @@
                               <Component id="calcBMILabel1" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="calcBMIInt1" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="104" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="reqSuppliesTitle1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="waterLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="waterAmt1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="waterLitersLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodAmt1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodCalLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -818,6 +852,56 @@
                     <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
                   </AuxValues>
                 </Component>
+                <Component class="javax.swing.JLabel" name="reqSuppliesTitle1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Packing Information:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Water:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterAmt1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterLitersLabel1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="liters"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodCalLabel1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="calories"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodAmt1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodLabel1">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Food:"/>
+                  </Properties>
+                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="hikerTab2">
@@ -835,6 +919,29 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="172" pref="172" max="-2" attributes="0"/>
+                                          <Component id="foodLabel2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Component id="foodAmt2" min="-2" pref="51" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="waterLabel2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="waterAmt2" max="32767" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="waterLitersLabel2" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="reqSuppliesTitle2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="foodCalLabel2" min="-2" max="-2" attributes="0"/>
+                              </Group>
                               <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="phoneNumberLabel2" min="-2" max="-2" attributes="0"/>
@@ -960,7 +1067,18 @@
                               <Component id="calcBMILabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="calcBMIInt2" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="104" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="reqSuppliesTitle2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="waterLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="waterAmt2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="waterLitersLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodAmt2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodCalLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1161,6 +1279,56 @@
                     <Property name="text" type="java.lang.String" value="BMI Information:"/>
                   </Properties>
                 </Component>
+                <Component class="javax.swing.JLabel" name="reqSuppliesTitle2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Packing Information:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Water:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterAmt2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterLitersLabel2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="liters"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodLabel2">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Food:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodAmt2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodCalLabel2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="calories"/>
+                  </Properties>
+                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="hikerTab3">
@@ -1178,6 +1346,29 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="172" pref="172" max="-2" attributes="0"/>
+                                          <Component id="foodLabel3" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Component id="foodAmt3" min="-2" pref="51" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="waterLabel3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="waterAmt3" max="32767" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="waterLitersLabel3" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="reqSuppliesTitle3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="foodCalLabel3" min="-2" max="-2" attributes="0"/>
+                              </Group>
                               <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="phoneNumberLabel3" min="-2" max="-2" attributes="0"/>
@@ -1303,7 +1494,18 @@
                               <Component id="calcBMILabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="calcBMIInt3" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="104" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="reqSuppliesTitle3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="waterLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="waterAmt3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="waterLitersLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodAmt3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodCalLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1504,6 +1706,56 @@
                     <Property name="text" type="java.lang.String" value="BMI Information:"/>
                   </Properties>
                 </Component>
+                <Component class="javax.swing.JLabel" name="reqSuppliesTitle3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Packing Information:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Water:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterAmt3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterLitersLabel3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="liters"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodLabel3">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Food:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodAmt3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodCalLabel3">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="calories"/>
+                  </Properties>
+                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="hikerTab4">
@@ -1521,6 +1773,29 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="172" pref="172" max="-2" attributes="0"/>
+                                          <Component id="foodLabel4" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Component id="foodAmt4" min="-2" pref="51" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="waterLabel4" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="waterAmt4" max="32767" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="waterLitersLabel4" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="reqSuppliesTitle4" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="foodCalLabel4" min="-2" max="-2" attributes="0"/>
+                              </Group>
                               <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="phoneNumberLabel4" min="-2" max="-2" attributes="0"/>
@@ -1646,7 +1921,18 @@
                               <Component id="calcBMILabel4" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="calcBMIInt4" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="104" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="reqSuppliesTitle4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="waterLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="waterAmt4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="waterLitersLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodAmt4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodCalLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1847,6 +2133,56 @@
                     <Property name="text" type="java.lang.String" value="BMI Information:"/>
                   </Properties>
                 </Component>
+                <Component class="javax.swing.JLabel" name="foodCalLabel4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="calories"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterAmt4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterLabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Water:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="reqSuppliesTitle4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Packing Information:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodAmt4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterLitersLabel4">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="liters"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodLabel4">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Food:"/>
+                  </Properties>
+                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="hikerTab5">
@@ -1864,6 +2200,29 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="172" pref="172" max="-2" attributes="0"/>
+                                          <Component id="foodLabel5" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Component id="foodAmt5" min="-2" pref="51" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="waterLabel5" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="waterAmt5" max="32767" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="waterLitersLabel5" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="reqSuppliesTitle5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="foodCalLabel5" min="-2" max="-2" attributes="0"/>
+                              </Group>
                               <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="phoneNumberLabel5" min="-2" max="-2" attributes="0"/>
@@ -1989,7 +2348,18 @@
                               <Component id="calcBMILabel5" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="calcBMIInt5" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="104" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="reqSuppliesTitle5" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="waterLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="waterAmt5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="waterLitersLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodAmt5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodCalLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -2190,6 +2560,56 @@
                     <Property name="text" type="java.lang.String" value="BMI Information:"/>
                   </Properties>
                 </Component>
+                <Component class="javax.swing.JLabel" name="foodCalLabel5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="calories"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="reqSuppliesTitle5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Packing Information:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterLitersLabel5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="liters"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Food:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodAmt5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterAmt5">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterLabel5">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Water:"/>
+                  </Properties>
+                </Component>
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="hikerTab6">
@@ -2207,6 +2627,29 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="172" pref="172" max="-2" attributes="0"/>
+                                          <Component id="foodLabel6" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                          <Component id="foodAmt6" min="-2" pref="51" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                          <Group type="102" alignment="1" attributes="0">
+                                              <Component id="waterLabel6" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                              <Component id="waterAmt6" max="32767" attributes="0"/>
+                                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                                              <Component id="waterLitersLabel6" min="-2" max="-2" attributes="0"/>
+                                              <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="reqSuppliesTitle6" alignment="1" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="foodCalLabel6" min="-2" max="-2" attributes="0"/>
+                              </Group>
                               <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="phoneNumberLabel6" min="-2" max="-2" attributes="0"/>
@@ -2332,7 +2775,18 @@
                               <Component id="calcBMILabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="calcBMIInt6" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="104" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="reqSuppliesTitle6" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="waterLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="waterAmt6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="waterLitersLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodAmt6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="foodCalLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="59" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -2531,6 +2985,56 @@
                       <Font name="Lucida Grande" size="13" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="BMI Information:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodCalLabel6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="calories"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="reqSuppliesTitle6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Packing Information:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterLitersLabel6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="liters"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodLabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Food:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="foodAmt6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterAmt6">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Lucida Grande" size="13" style="1"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="0"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="waterLabel6">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Water:"/>
                   </Properties>
                 </Component>
               </SubComponents>
