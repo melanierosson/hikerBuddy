@@ -66,7 +66,9 @@ public HikingSafety(String fname, String lname, double weight, double height)
     }
     
     //calculates the bmi
-    public double bmiCalculator (double w, double h){
+    public double bmiCalculator (){
+        double w = getWeight();
+        double h = getHeight();
         double bmi = w/(h*h);
         return bmi;
     }
