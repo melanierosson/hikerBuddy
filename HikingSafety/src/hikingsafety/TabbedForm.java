@@ -104,6 +104,7 @@ public class TabbedForm extends javax.swing.JFrame {
         itineraryLabel = new javax.swing.JLabel();
         itineraryText = new javax.swing.JTextField();
         itineraryDescr = new javax.swing.JLabel();
+        jLabel7 = new javax.swing.JLabel();
         participantsTabs = new javax.swing.JTabbedPane();
         hikerTab1 = new javax.swing.JPanel();
         fNameText1 = new javax.swing.JTextField();
@@ -391,8 +392,8 @@ public class TabbedForm extends javax.swing.JFrame {
             }
         });
 
-        hikingSafetyTitle.setFont(new java.awt.Font("Lucida Grande", 1, 24)); // NOI18N
-        hikingSafetyTitle.setText("Hiker Buddy");
+        hikingSafetyTitle.setFont(new java.awt.Font("DIN Condensed", 0, 48)); // NOI18N
+        hikingSafetyTitle.setText("HIKER BUDDY");
 
         natureTripLabel.setFont(new java.awt.Font("Lucida Grande", 1, 13)); // NOI18N
         natureTripLabel.setText("Nature of Trip:");
@@ -427,6 +428,8 @@ public class TabbedForm extends javax.swing.JFrame {
 
         itineraryDescr.setFont(new java.awt.Font("Lucida Grande", 2, 8)); // NOI18N
         itineraryDescr.setText("Examples: hiking, lunch, break, set up tent, etc. (You can also use this section for notes.)");
+
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imgs/hiker-buddy.png"))); // NOI18N
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -476,32 +479,38 @@ public class TabbedForm extends javax.swing.JFrame {
                             .addComponent(vehiclesText)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(TrailParkInfoDescr)
-                                .addComponent(trailParkInfoLabel)
-                                .addComponent(trailParkInfoText, javax.swing.GroupLayout.PREFERRED_SIZE, 511, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addGap(176, 176, 176)
-                                    .addComponent(hikingSafetyTitle))
-                                .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(jPanel1Layout.createSequentialGroup()
-                                            .addComponent(groupAmtLabel)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                            .addComponent(groupAmt))
-                                        .addComponent(tripStartInfoLabel))
-                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(jPanel1Layout.createSequentialGroup()
-                                            .addGap(38, 38, 38)
-                                            .addComponent(groupLeaderMainLabel)
-                                            .addGap(18, 18, 18)
-                                            .addComponent(groupLeaderMainText))
-                                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(tripStartDateLabel)
-                                            .addGap(18, 18, 18)
-                                            .addComponent(tripStartDateText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addGap(111, 111, 111)))))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(TrailParkInfoDescr)
+                                    .addComponent(trailParkInfoText, javax.swing.GroupLayout.PREFERRED_SIZE, 511, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                                .addComponent(groupAmtLabel)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                                .addComponent(groupAmt))
+                                            .addComponent(tripStartInfoLabel))
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                                .addGap(38, 38, 38)
+                                                .addComponent(groupLeaderMainLabel)
+                                                .addGap(18, 18, 18)
+                                                .addComponent(groupLeaderMainText))
+                                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(tripStartDateLabel)
+                                                .addGap(18, 18, 18)
+                                                .addComponent(tripStartDateText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(111, 111, 111))))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(trailParkInfoLabel)
+                                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                                .addGap(93, 93, 93)
+                                                .addComponent(jLabel7)))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addComponent(hikingSafetyTitle)))
+                                .addGap(4, 4, 4))
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
                                 .addComponent(itineraryLabel)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -514,10 +523,15 @@ public class TabbedForm extends javax.swing.JFrame {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(14, 14, 14)
-                .addComponent(hikingSafetyTitle)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(trailParkInfoLabel)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(2, 2, 2)
+                        .addComponent(jLabel7)
+                        .addGap(12, 12, 12)
+                        .addComponent(trailParkInfoLabel))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(15, 15, 15)
+                        .addComponent(hikingSafetyTitle)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(trailParkInfoText, javax.swing.GroupLayout.PREFERRED_SIZE, 73, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
@@ -566,7 +580,7 @@ public class TabbedForm extends javax.swing.JFrame {
                     .addComponent(vehiclesText, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(vehicleDescr, javax.swing.GroupLayout.PREFERRED_SIZE, 10, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(23, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         activityInformation.addTab("Activity Information", jPanel1);
@@ -2144,7 +2158,7 @@ public class TabbedForm extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addComponent(activityInformation, javax.swing.GroupLayout.PREFERRED_SIZE, 526, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 8, Short.MAX_VALUE))
         );
 
         pack();
@@ -2704,6 +2718,7 @@ public class TabbedForm extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel7;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
