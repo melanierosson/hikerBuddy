@@ -16,6 +16,7 @@ public class HikingSafety
     private int phone;
     private boolean leader;
     private double fitLevel;
+    private double gender;
     private double weight;
     private double height;
     private double age;
@@ -49,6 +50,16 @@ public HikingSafety(String fname, String lname, double weight, double height)
     //retrieves the hikers last name
     public String getLname(){
         return lname;
+    }
+    
+    //set gender
+    public void setGender(Double gender){
+        this.gender = gender;
+    }
+    
+    //retrieves the hikers last name
+    public Double getGender(){
+        return gender;
     }
     
         //sets hikers height
@@ -187,15 +198,14 @@ public HikingSafety(String fname, String lname, double weight, double height)
     
     //calculate the required water
     public double reqWater(){
-        
-      return 0;  
+        double calories = (2*getGender()*getFitLevelVal()*BMI()*getAgeVal()*getIntensityVal()*getTripLen());
+        return calories; 
     }
     
-    //calculate the required calories
+//calculate the required calories
     public double reqCal(){
-      return 0;  
+        double calories = 2500*BMI()*getIntensityVal()*getTripLen();
+        return calories; 
     }
-    
-    
 }
 
